@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px">
+					<a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a>
+			</span>
+			<span style="float:right">
+				<a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a>
+			</span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+				<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right">
+				<a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Acta 11 Octubre 2008</span></h3>
+			
+			<p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se muestra a continuación un resumen del acta de la asamblea
+				 general de la Asociación cultural "Peña los Comuneros" de 2008.			  
+			</p>		
+			<table width="90%"  border="2px" bordercolor="#416D8E"  cellpadding="10px" cellspacing="0px" style="margin-bottom:10px" align="center">  
+  		<tr>
+    		<td><strong>FECHA</strong></td>
+    		<td colspan="3"><strong>11 de Octubre de 2008 a 17:30h.</strong></td>    		
+  		</tr>
+  		<tr>
+    		<td><strong>PRESIDIDA</strong></td>
+    		<td>D. Emilio Martín</td>  
+    		<td><strong>SECRETARIO</strong></td>
+    		<td>D. Luis Fernández Rodríguez</td>  		
+  		</tr>
+  		<tr>
+    		<td><strong>ASISTENTES</strong></td>
+    		<td colspan="3">32 socios</td>    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p align="center"><strong>ORDEN DEL DÍA</strong></p></td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 1.- Lectura y aprobación, si procede, del acta de la asamblea anterior</strong><br />
+    		Una vez leída por el secretario es  aprobada por unanimidad de los asistentes.
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 2.- Informe económico por parte del tesorero</strong><br />
+    		El tesorero, D. Jesús López Ramos, reparte a los asistentes copias del informe económico del ejercicio 2007/08.<br />
+    		Es sometida la aprobación de las cuentas a los socios, quienes las aprueban por unanimidad. 
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 3.- Informe del secretario sobre la relación actual de socios</strong><br />
+    		El secretario informa que actualmente existen 128. De los cuales 110 han abonado la cuota correspondiente al ejercicio 2.008, 
+    		quedando pendiente el cobro de 16 cuotas. Este año se han dado de alta 4 socios nuevos y han causado baja 3.
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 4.- Lotería 2.008 </strong><br />
+    		Se fija como día para sellado de papeletas y reparto de talonarios el próximo domingo, día 12 de Octubre. 
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 5.- Parque de "El Pilar"  </strong><br />
+    		Por parte del tesorero, Jesús López Ramos, informa que el parque lo íbamos a hacer arrimando el hombro, pero como se echó Septiembre encima, 
+    		bajo su responsabilidad, y aprovechando la máquina del Ayuntamiento decidió seguir las obras. La idea era seguir con el muro y la fuente. 
+    		Podemos aprovechar la tierra y la máquina de hacer una calle y prolongar el alumbrado público hasta el parque, colaborando con el 
+    	  Ayuntamiento si es necesario. Hay que poner el vallado y algo de mobiliario urbano. <br />	
+	      El secretario también informa que se explorarán nuevas vías para conseguir ayuda financiera que nos permita afrontar las obras. 
+    		</p>
+    		</td>    		    		
+  		</tr>
+  			<tr>
+    		<td colspan="4"><p><strong> 6.- Renovación de miembros de la Junta Directiva   </strong><br />
+    		De acuerdo a los estatutos vigentes, procede la renovación de los miembros de la Junta Directiva. 
+    		<br />
+    		Sometida a votación esta es la nueva Junta Directiva y los equipos de trabajo aprobados por el voto a favor de la totalidad 
+    		de los asistentes:
+    	  <br />
+    	<strong>Equipos de trabajo:</strong> <br />
+    		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.	Fiesta de Abril: Eva Yagüe, Nuria Sanz y Hontanares Sanz.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.	Música: Juan Ramón Armendáriz, Juan José Sanz y Luis Miguel Durango.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.	Certamen de dulzainas: Alfredo Yagüe.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.	Montar chiringuitos: Adrián Granda, Pablo López, Santiago Asenjo y Jesús Asenjo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.	Lotería: Federico Calderón y José Antonio Granda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.	Actividades culturales: Jesús López, Viky Asenjo y Nuria Melero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.	Fiesta de la cerveza: Óscar Blanco y Juan Ramón Armendáriz.<br />
+			<strong>Junta Directiva:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Presidente: Amando Granda Tomé.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Secretario: Jesús López Ramos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Tesorero: Emilio Martín Granda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Vocal de parque del Pilar: Miguel Ángel Alonso, José Antonio Granda y Fernando Granda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Vocal de bar: Enrique Maté Granda y Audelino Asenjo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-	Vocal sin asignación específica: Antonio Melero González.<br />
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 7.- Ruegos y preguntas  </strong><br />
+    		Se trata el tema de los actos de la próxima fiesta de la Peña teniendo en cuenta las fechas del 1 al 3 de Mayo de 2.009.
+    	Se decide:<br />
+    			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <strong>Viernes</strong>, dulzainas y merienda. <br />
+    			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <strong>Sábado</strong>, orquesta, comida y misa. <br />
+    			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- <strong>Domingo</strong>, recoger.<br />
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		</table>			
+			
+		</div>
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+
+</body>
+</html>

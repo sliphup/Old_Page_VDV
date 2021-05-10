@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">														
+				
+				<strong>Pajar:</strong> Del lat. palearium.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Sitio donde se guarda la paja.</em><br />
+
+				<strong>Pajero**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. El que conduce o lleva paja a vender de un lugar a otro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Nicar. Fontanero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Montón de paja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lugar donde se deja el montón de paja sobrante.</em><br />
+
+				<strong>Pajarota**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. Infundio, bulo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Ave mayor que el gorrión frecuente en los alrededores del pueblo.</em><br />
+
+				<strong>Pajear:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Comer bien mucha paja las caballerías.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. <em>Portarse, conducirse. Ú. por lo común en la fr. cada uno tiene su modo de PAJEAR.</em><br />
+
+				<strong>Pajuza*:</strong> De pajuz.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Ar. Paja a medio pudrir y desechada de los pesebres.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ar. <em>Paja muy menuda que los labradores abandonan en la era y destinan para estiércol.</em><br />
+
+				<strong>Palancana:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Jofaina, palangana.</em>	<br />
+
+				<strong>Palancanero*:</strong>Palanganero. <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Mueble de madera o hierro,</em> por lo común de tres pies, donde se coloca la palangana para lavarse, y a veces un jarro con agua, el jabón y otras cosas para el aseo de la persona.<br />
+
+				<strong>Pamplina:</strong> De *papaverina, y este del lat. papaver, amapola.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. álsine, planta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Planta herbácea anual, de la familia de las papaveráceas, con tallos de dos a tres decímetros; hojas partidas en lacinias muy estrechas y agudas; flores de cuatro pétalos amarillos, en panojas pequeñas, y fruto seco en vainillas con muchas simientes. Infesta los sembrados de suelo arenisco, que en la primavera parecen teñidos de amarillo por la abundancia de flores.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Dicho o cosa de poca entidad, fundamento o utilidad.<br />
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En plural. Halagos. También memeces  y tonterías. </em><br />
+
+				<strong>Pandero:</strong> Del lat. pandorium.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Instrumento rústico formado por uno o dos aros superpuestos, de un centímetro o menos de ancho, provistos de sonajas o cascabeles y cuyo vano está cubierto por uno de sus cantos o por los dos con piel muy lisa y estirada. Tócase haciendo resbalar uno o más dedos por ella o golpeándola con ellos o con toda la mano.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Persona necia y que habla mucho con poca sustancia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cometa, juguete de muchachos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. <em>culo.</em><br />
+
+				<strong>Parihuela:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Artefacto compuesto de dos varas gruesas con unas tablas atravesadas en medio donde se coloca la carga para llevarla entre dos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Camilla, cama portátil. Ú. t. en pl.<br />
+
+				<strong>Parranda:</strong> De etim. disc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Juerga bulliciosa, especialmente la que se hace yendo de un sitio a otro.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cuadrilla de músicos o aficionados que salen de noche tocando instrumentos de música o cantando para divertirse.<br />
+
+				<strong>Parva:</strong> Parece del lat. parva, pequeña.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. parvedad, corta porción de alimento.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Mies tendida en la era para trillarla,</em> o después de trillada, antes de separar el grano.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Desayuno, entre la gente trabajadora.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Montón o cantidad grande de una cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Afrailar la parva.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. And. Amontonarla después de trillada, para aventarla cuando haya viento a propósito.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salirse uno de la parva.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Apartarse del intento o del asunto.<br />
+
+				<strong>Patizambo:</strong> De pata1 y zambo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Que tiene las piernas torcidas hacia afuera y junta mucho las rodillas.</em> Ú. t. c. s.<br />
+
+				<strong>Pejiguera:</strong> Del lat. persicaria, duraznillo, de persicus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Cualquier cosa que sin traernos gran provecho nos pone en problemas y dificultades.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. Hierba pejiguera.<br />
+
+				<strong>Pelanas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Persona inútil y despreciable.</em><br />
+
+				<strong>Pelele:</strong>	De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Figura humana de paja o trapos que se suele poner en los balcones o que mantea el pueblo en las carnestolendas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Traje de punto de una pieza que se pone a los niños para dormir.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Persona simple o inútil.</em><br />
+
+				<strong>Pellejo:</strong> De pelleja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Piel del animal, especialmente cuando está separada del cuerpo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Piel del hombre.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Piel de algunas frutas y hortalizas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <em>Cuero cosido para contener líquidos, odre.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. y fam. Persona ebria.<br />
+
+				<strong>Pepla**:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. Persona, animal o cosa que tiene muchos defectos en lo físico o en lo moral.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cantidad o suma de dinero, y más comúnmente la que se debe o defrauda.</em><br />
+
+				<strong>Perilla**:</strong> d. de pera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Adorno en figura de pera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Parte superior del arco que forman por delante los fustes de la silla de montar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Porción de pelo que se deja crecer en la punta de la barba.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Extremo del cigarro puro, por donde se fuma.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Llave, interruptor de la luz que colgaba al lado de la cama para tenerlo a mano.</em><br />
+
+				<strong>Perniquebrar:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Romper, quebrar una pierna o las dos.</em> Ú. t. c. prnl.<br />
+
+				<strong>Perola:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Especie de perol,</em> más pequeño que el ordinario.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del cat. Perol. Vasija de metal, de forma semejante a media esfera, que sirve para cocer diferentes cosas.<br />
+
+				<strong>Pertilera*:</strong> <em>Hueco o ventana en la pared del pajar por donde se mete la paja o la hierba.</em><br />
+
+				<strong>Pescozón:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Golpe que se da con la mano en el pescuezo o en la cabeza.</em><br />
+
+				<strong>Piales:</strong> Peales. Del lat. pedalis.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Parte de la media que cubre el pie.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Media sin pie que se sujeta a este con una trabilla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Paño con que se cubre el pie. Calcetines de lona.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Esterilla circular de esparto que se pone en las jaulas de los reclamos de perdiz.<br />
+
+				<strong>Pícia*:</strong> <em>Mala acción, travesura o fechoría. </em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Probablemente proviene de pifia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Golpe en falso que se da con el taco en la bola de billar o de trucos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Error, descuido, paso o dicho desacertado.<br />
+
+				<strong>Pichiglás*:</strong> <em>Plexiglás.</em> Del ing. plexiglass, vidrio flexible.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Resina sintética que tiene el aspecto del vidrio.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Material transparente y flexible de que se hacen telas, tapices, etc.<br />
+
+				<strong>Pijotero:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Se dice despectivamente de lo que produce hastío, cansancio u otras cosas, según el sustantivo a que se aplica.</em><br />
+
+				<strong>Pilarejo:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. M. d.<em> de pilar.</em><br />
+
+				<strong>Pilón:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. aum. de pila.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Receptáculo de piedra, que se construye en las fuentes para que, cayendo el agua en él, sirva de abrevadero, de lavadero o para otros usos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Especie de mortero de madera o de metal, que sirve para majar granos u otras cosas.<br />
+
+				<strong>Pindonga:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Mujer callejera.</em><br />
+
+				<strong>Pindonguear:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. fam. <em>Andar sin necesidad ni provecho de un sitio a otro, callejear.</em><br />
+
+				<strong>Pingajo:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Harapo o jirón que cuelga de alguna parte.</em><br />
+
+				<strong>Pingar:</strong> Del lat. *pendicare, de pendere.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Pender, colgar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Gotear lo que está empapado en algún líquido.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Brincar, saltar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Ar. Alzar la bota para beber.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. tr. <em>Apartar una cosa de su posición vertical o perpendicular, inclinar.</em><br />
+
+				<strong>Pingo:</strong> De pingar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. Harapo o jirón que cuelga.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Mujer despreciable.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Méj. Muchacho travieso.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. pl. fam. <em>Vestidos de mujer cuando son de poco precio, aunque estén en buen uso o sean nuevos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Andar, estar, o ir, de pingo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. <em>Andar una mujer de visitas y paseos en vez de estar dedicada al recogimiento y a las labores de su casa.</em><br />
+
+				<strong>Pintorro:</strong> Del lat. pictus, con la n de pingere.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. ant. <em>Dicho de animales y cosas, de diversos colores, que tienen manchas o  pintas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Agr. <em>Color que toman algunas frutas u hortalizas cuando empiezan a madurar.</em><br />
+
+				<strong>Pirigallo*:</strong> Pipirigallo. <em>Flor de la amapola.</em><br />
+
+				<strong>Pitorro:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. m. Se dice del carnero con cuernos fuertes y largos. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. <em>Pitón de los botijos.</em><br />
+
+				<strong>Pocillo**:</strong> Del lat. pocillum.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Tinaja o vasija empotrada en la tierra para recoger un líquido, como el aceite y vino en los molinos y lagares.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Pequeña vasija de loza, como la del chocolate; jícara.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>Hoyo en el suelo de la bodega para recoger las filtraciones de agua.</em><br />
+
+				<strong>Pollín*:</strong> Pollino del lat. pullinus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f. Asno joven y cerril.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Por ext., cualquier borrico.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. ant. Hijo o cría de aves o cuadrúpedos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. <em>Persona simple, ignorante o ruda.</em> Ú. t. c. adj.<br />
+
+				<strong>Porrillo:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. fam. <em>En abundancia, copiosamente.</em><br />
+
+				<strong>Porrón:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Vasija de barro de vientre abultado para agua.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Redoma de vidrio muy usada en algunas provincias para beber vino a chorro por el largo pitón que tiene en la panza.</em><br />
+
+				<strong>Poyato*:</strong> De poyata, poyo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Vasar o anaquel que sirve para poner vasos y otras cosas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Repisa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Terreno en repisa, apoyado en un cerro o ladera.</em><br />
+
+				<strong>Poyo:</strong> Del lat. podium.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Banco de piedra, yeso u otra materia, que ordinariamente se fabrica arrimado a las paredes, junto a las puertas de las casas de campo, en los zaguanes y otras partes.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Derecho que se abonaba a los jueces por administrar justicia.<br />
+
+				<strong>Puchero:</strong> Del lat. pultarius.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Vasija de barro</em> y de otros materiales, con asiento pequeño, panza abultada, cuello ancho, una sola asa junto a la boca. Por ext., se llaman así otras vasijas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Especie de cocido, como el cocido español.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Alimento diario y regular. Véngase usted a comer el PUCHERO conmigo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. <em>Gesto o movimiento que precede al llanto verdadero o fingido.</em> <br />
+
+				
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

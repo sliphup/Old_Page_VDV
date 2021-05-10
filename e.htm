@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">															
+		<strong>Embargardo/a:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. p. de embargar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj. ant. Ahíto, <em>con indigestión o pesadez de estómago.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. m. ant. Embargo, embarazo, impedimento.<br />
+
+		<strong>Empantanar:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Llenar de agua un terreno, dejándolo hecho un pantano. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Meter a uno en un pantano. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig.<em> Detener, embarazar o impedir el curso de un trabajo o negocio.</em> Ú. t. c. prnl.<br />
+
+		<strong>Empanzarse:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. prnl. <em>Hartarse, darse un hartazgo de comida o bebida.</em><br />
+
+		<strong>Empellón:</strong> De empellar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Empujón recio que se da con el cuerpo</em> para sacar de su lugar o asiento a una persona o cosa.
+a empellones.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. fig. y fam. Con violencia, bruscamente.<br />
+
+		<strong>Encambarao*:</strong> Cámbara y cambaril.<br />
+
+		<strong>Encañadura:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. F. ant. encañado. <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. p. de encañar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. <em>Conducto hecho de caños, o de otro modo, para conducir el agua.</em><br />
+
+		<strong>Engatusar:</strong> De engatar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Ganar la voluntad de uno con halagos para conseguir de él alguna cosa.</em><br />
+
+		<strong>Engorrio*:</strong> De engorro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Obstáculo, impedimento, molestia.</em><br />
+
+		<strong>Enguiñar*:</strong> <em>Dar algo con malas artes, burla o engaño.</em><br />
+
+		<strong>Engurriar**:</strong> De engurrar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. ant. Arrugar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Trasladar  un problema a otro sin este quererlo.</em><br />
+
+		<strong>Enfurruñarse:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. prnl. fam. <em>Enfadarse.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Enfoscarse, encapotarse el cielo.<br />
+
+		<strong>Enrilar*:</strong> De encarrilar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Encaminar, dirigir y enderezar una cosa, como carro, coche, etc., para que siga el camino o carril debido.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Colocar sobre los carriles o rieles un vehículo descarrilado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Dirigir a una persona por el camino que le es conveniente.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Dirigir por el rumbo o por los trámites que conducen al acierto una pretensión o expediente que iba por mal camino.<br />
+
+		<strong>Entrefina**:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. De una calidad media entre lo fino y lo basto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. De grosor o tamaño entre lo delgado y lo grueso.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Dícese del vino de Jerez que tiene algunas de las cualidades del llamado fino.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Ni churra, ni merina, entrefina.</em><br />
+
+		<strong>Esadura*:</strong> De asadura.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Conjunto de las entrañas del animal.</em> Ú. t. en pl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Hígado y bofes.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Hígado, víscera del abdomen.<br />
+
+		<strong>Esbarar:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Resbalar.</em><br />
+
+		<strong>Esbaratar*:</strong> Desbaratar, des- y baratar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Deshacer o arruinar una cosa.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Disipar, malgastar los bienes.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Referido a cosas inmateriales, cortar, impedir, estorbar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Mil. Desordenar, desconcertar, poner en confusión a los contrarios.<br />
+
+		<strong>Escabuchar:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Pal. y Rioja. Escardar y escavanar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. tr. Agr. <em>Entrecavar los sembrados, con escarda o azadilla, cuando ya tienen bastantes raíces, para que la tierra se ahueque y se meteorice mejor, y para quitar las malas hierbas.</em><br />
+
+		<strong>Escagazar*:</strong> <em>Escagazarse. Descagazarse. Valerse por si mismo.</em><br />
+
+		<strong>Escagurriado*:</strong> <em>Suelto de vientre.</em><br />
+
+		<strong>Escandalera:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Escándalo, alboroto grande.</em><br />
+
+		<strong>Escaramujo:</strong> De or. inc.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Especie de rosal silvestre,</em> con hojas algo agudas y sin vello; tallo liso, con dos aguijones alternos; flores encarnadas y por fruto una baya aovada, carnosa, coronada de cortaduras, y de color rojo cuando está madura, que se usa en medicina.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Fruto de este arbusto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Percebe, molusco.<br />
+
+		<strong>Escarcha:</strong> De or. inc.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Rocío de la noche congelado.</em><br />
+
+		<strong>Escarchado/a**:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. p. de escarchar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj. Cubierto de escarcha.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. m. Cierta labor de oro o plata, sobrepuesta en la tela.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Aterido, alelado, atontado, que no reacciona.</em><br />
+
+		<strong>Escardar:</strong> De es- y cardo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Arrancar y sacar los cardos y otras hierbas nocivas de los sembrados.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Separar y apartar lo malo de lo bueno para que no se confundan.<br />
+
+		<strong>Escarranparse*:</strong> <em>Esparrancarse, despatarrarse.</em><br />
+
+		<strong>Escuchimizado/a:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Muy flaco y débil.</em><br />
+
+		<strong>Escuerzo:</strong> De or. inc.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Sapo, batracio anuro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Persona flaca y desmedrada.<br />
+
+		<strong>Escullar**:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. En varias regiones, vulg. por escudillar, echar caldo o comida en escudillas.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. intr. Burg., Cantabria y Pal., Gotear o escurrir un líquido de una vasija u otra cosa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Dejar a uno o a algo sin nada, vacío, escurrido.</em><br />
+
+		<strong>Esguardamillar:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Desbaratar, descomponer, descuadernar.</em><br />
+
+		<strong>Esgurriado*:</strong> <em>Persona o animal flojo de vientre.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Que se ha resbalado, deslizado o caido.</em><br />
+
+		<strong>Esmirriado/a:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. fam. <em>Flaco, extenuado, consumido.</em><br />
+
+		<strong>Esmochado*:</strong> De desmochar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Quitar, cortar, arrancar o desgajar la parte superior de una cosa, dejándola mocha. </em>DESMOCHÓ la res, cortándole las astas;<br />
+ 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DESMOCHÓ el árbol, desnudándolo de las ramas.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Eliminar, cortar parte de una obra artística o literaria.<br />
+
+		<strong>Esnucar*:</strong> De desnucar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Sacar de su lugar los huesos de la nuca. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Causar la muerte a una persona o animal por un golpe en la nuca.</em> Ú. t. c. prnl.<br />
+
+		<strong>Espabilar:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Despabilar. <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. desus. Cercenar, quitar de una cosa algo que en ella estorba o constituye una imperfección.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. p. us. fig. Despachar brevemente, o acabar con presteza. DESPABILAR la hacienda, la comida.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. desus. fig. Robar, quitar ocultamente.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. <em>Avivar y ejercitar el entendimiento o el ingenio de alguien, hacerle perder la timidez o la torpeza.</em> Ú. t. c. prnl. y c. intr.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. prnl. fig.<em> Sacudirse el sueño o la pereza.</em> Ú. t. c. intr.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. fig. Apresurarse, darse prisa en la realización de una cosa. Ú. m. en imperat. DESPABÍLATE de una vez y termina. Ú. t. c. intr.<br />
+
+		<strong>Espachurrar:</strong> De despanchurrar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Aplastar una cosa </em>despedazándola, estrujándola o apretándola con fuerza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Estropear una historia o relato por torpeza de quien lo cuenta.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Dejar a alguien cortado sin que pueda replicar.<br />
+
+		<strong>Espaderaña*:</strong> <em>Espadaña y pared o muro alrededor de la iglesia.</em><br />
+
+		<strong>Espadaña:</strong> Der. de espada.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Planta herbácea, de la familia de las tifáceas, de metro y medio a dos metros de altura, con las hojas en forma casi de espada, el tallo largo, a manera de junco, con una mazorca cilíndrica al extremo, que después de seca suelta una especie de pelusa o vello blanco, ligero y muy pegajoso. Sus hojas se emplean como las de la anea.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Campanario de una sola pared,</em> en la que están abiertos los huecos para colocar las campanas.v
+
+		<strong>Espantajo:</strong> Despect. de espanto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Lo que se pone en un lugar para espantar y especialmente en los sembrados para espantar los pájaros. <em>Espantapájaros.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Persona estrafalaria </em>y despreciable.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Apodo que se aplica al necio de gran apariencia y sin valor.<br />
+
+		<strong>Espanturrión*:</strong> De espantar. l lat. *expaventare.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Causar espanto, dar susto, infundir miedo. Ú. t. c. intr.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ojear, echar de un lugar a una persona o un animal.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Admirarse, maravillarse. Ú. m. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. Sentir espanto, asustarse.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Echar a correr por asustarse. </em><br />
+
+		<strong>Espelujar*:</strong> Despeluzar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Descomponer, desordenar el pelo de la cabeza,</em> de la felpa, etc. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Erizar el cabello, generalmente por horror o miedo. Ú. m. c. prnl.<br />
+
+		<strong>Espetar:</strong> De espeto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Atravesar con el asador, u otro instrumento puntiagudo, carne, aves, pescados, etc., para asarlos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Atravesar, clavar, meter por un cuerpo un instrumento puntiagudo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Decir a uno de palabra o por escrito alguna cosa, causándole sorpresa o molestia.</em> Me ESPETÓ una arenga, un cuento, una carta.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. Ponerse tieso, afectando gravedad y majestad.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. y fam. Encajarse, asegurarse, afianzarse.<br />
+
+		<strong>Espichar:</strong> De espiche o espicho.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Punzar con una cosa aguda.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Can. Plantar hortalizas o sembrar maíz.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. intr. fam. Morir, acabar la vida uno.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Espicharla.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. verbal. <em>Morir, acabar la vida.</em><br />
+
+		<strong>Espigar:</strong> Del lat. spicare.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Coger las espigas que han quedado en el rastrojo.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Carp. Hacer la espiga en las maderas que han de entrar en otras.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. intr. <em>Empezar los cereales y otras semillas a echar espigas.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl.<em> Crecer demasiado algunas hortalizas, como la lechuga y la alcachofa, y dejar de ser propias para la alimentación por haberse endurecido.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. <em>Crecer notablemente una persona.</em><br />
+
+		<strong>Espita:</strong> Del gót. *spitus, asador.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Medida lineal de un palmo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Canuto que se mete en el agujero de la cuba u otra vasija, para que por él salga el licor que esta contiene.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Por ext., cualquier dispositivo análogo que permite la salida de gases, líquidos, etc., de un recipiente.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. Persona borracha o que bebe mucho vino.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cerrar la espita.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. Suprimir una ayuda, normalmente económica, que antes se daba.<br />
+
+		<strong>Espliego:</strong> Del lat. spiculum, d. de spicum, espiga.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Mata de la familia de las labiadas,</em> de cuatro a seis decímetros de altura, con tallos leñosos, hojas elípticas, casi lineales, enteras y algo vellosas, flores azules en espiga, de pedúnculo muy largo y delgado, y semilla elipsoidal de color gris. Toda la planta es muy aromática, y principalmente de las flores se extrae un aceite esencial muy usado en perfumería.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Semilla de esta planta, que se emplea como sahumerio.<br />
+
+		<strong>Esportillado*:</strong> <em>Desconchado de las cazuelas, palancanas o vasijas de porcelana.</em><br />
+
+		<strong>Esquila:</strong> Del gót. *skilla.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Cencerro pequeño, en forma de campana.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Campana pequeña para convocar a los actos de comunidad en los conventos y otras casas.<br />
+
+		<strong>Esquileo:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Acción y efecto de esquilar ganados y otros animales.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Casa donde se esquila el ganado lanar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tiempo en que se esquila.<br />
+
+		<strong>Esquilillo*:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. d. de esquila, <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>El cencerro más pequeño o la campana menor.</em><br />
+
+		<strong>Esquilones*:</strong> <em>Collar de esquilas que se ponía a los machos.</em><br />
+
+		<strong>Estazar:</strong> Destazar, des- y tazar; cf. retazar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Hacer piezas o pedazos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Descuartizar una res una vez desollada.</em><br />
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

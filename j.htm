@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">															
+			<strong>Jalbegar:</strong> Del lat. *exalbicare, blanquear.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Enjalbegar. <br />	
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. tr. <em>Blanquear las paredes con cal, yeso o tierra blanca.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Afeitar, maquillar el rostro. Ú. t. c. prnl.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. desus. Componer el rostro con afeites. Ú. t. c. prnl.<br />
+
+			<strong>Jalbiegue*:</strong> De jalbegue.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Blanqueo de las paredes hecho con cal o arcilla blanca.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<em> Lechada de cal dispuesta para blanquear o enjalbegar.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. desus. Se aplica al afeite que solían usar las mujeres para blanquearse el rostro.<br />
+
+			<strong>Jarca*:</strong> Harca. Del ár. marroquí hárka, expedición militar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. En Marruecos, expedición militar de tropas indígenas de organización irregular.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Partida de rebeldes marroquíes. En esta palabra se aspira la h.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Grupo de gente de mala pinta.</em><br />
+
+			<strong>Jimplar:</strong> De himplar, himpar, la onomat. himp del sollozo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Gemir con hipo.</em><br />
+
+			<strong>Jinchar*:</strong> <em>Pinchar, alborotar, azuzar, provocar a alguien.</em><br />
+
+			<strong>Jiñar ó giñar*:</strong> <em>Cagar.</em><br />
+
+			<strong>Jugarreta:</strong> De jugar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. Jugada mal hecha y sin conocimiento del juego.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Truhanada, mala pasada.</em><br />
+
+			<strong>Jupa*:</strong> <em>Esfuerzo físico elevado.</em><br />
+
+
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px">
+					<a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a>
+			</span>
+			<span style="float:right">
+				<a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a>
+			</span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+				<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right">
+				<a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Acta 15 Octubre 2011</span></h3>
+			
+			<p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se muestra a continuación un resumen del acta de la asamblea
+				 general de la Asociación cultural "Peña los Comuneros" de 2012.			  
+			</p>		
+			<table width="90%"  border="2px" bordercolor="#416D8E"  cellpadding="10px" cellspacing="0px" style="margin-bottom:10px" align="center">  
+  		<tr>
+    		<td><strong>FECHA</strong></td>
+    		<td colspan="3"><strong>13 de Octubre de 2012 a 18:00h.</strong></td>    		
+  		</tr>
+  		<tr>
+    		<td><strong>PRESIDIDA</strong></td>
+    		<td>Miriam Alonso Sanz</td>  
+    		<td><strong>SECRETARIO</strong></td>
+    		<td>Ana I. Torres Miguel</td>  		
+  		</tr>
+  		<tr>
+    		<td><strong>ASISTENTES</strong></td>
+    		<td colspan="3">30 socios y hacen delegación de su voto 3 socios.</td>    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p align="center"><strong>ORDEN DEL DÍA</strong></p></td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 1.- Lectura y aprobación, si procede, del acta de la asamblea anterior</strong><br />
+    		Una vez leída por el secretario es aprobada por unanimidad de los asistentes.
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		<tr>
+    		<td colspan="4"><p><strong> 2.- Informe del secretario sobre la relación actual de socios</strong><br />
+    		 La secretaria informa que actualmente existen 151 socios. Se abonaron 132 cuotas durante las fiestas de Septiembre, dos de ellas correspondientes al año 2011, y por transferencia bancaria se recibieron 8 cuotas. 	
+		<br />
+		Causan baja los socios Juan Ramón Armendáriz y Gloria Fanny Puchaicela Quezada porque así lo han solicitado expresamente.  <br />
+		Este año se contabilizan 5 nuevos socios que son: <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Diego Alonso Granda<br />		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Sofía Granda Sanz<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Mª Carmen León Alaña<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Francisco Melero del Cura	<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Estefanía Pallol Granda<br />
+		Siendo un total de <strong>151 socios </strong> este año.<br />
+    		</p>
+    		</td>    		    		
+  		</tr>
+		
+  		<tr>
+    		<td colspan="4"><p><strong> 3.- Memoria de actividades </strong><br />
+    		El Presidente da lectura a un informe sobre las principales actividades:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Venta de lotería de Navidad.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Envío a los socios de Felicitación de Navidad con envío de calendarios.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Día del árbol, “Planta un árbol, siembra vida”.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fiestas de la peña.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Concurso Fotografía “Valdevarnés Vive”.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Disposición de camarero para atender la barra durante un periodo del verano.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Organización de las fiestas patronales de Septiembre.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Entrega del premio 2011 al embellecimiento del pueblo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Celebración de la Asamblea Anual y cena de socios y simpatizantes.<br />
+			
+			
+		</p>
+    		</td>    		    		
+  		</tr>
+		<tr>
+		<tr>
+    		<td colspan="4"><p><strong> 4.- Informe económico por parte del tesorero</strong><br />
+    		El tesorero, Mª Concepción Pérez García, reparte a los asistentes copias del informe económico. <br />
+		En el cual se refleja que el patrimonio neto asciende a 14.843,47€. Este patrimonio queda distribuido de la siguiente forma:<br />
+
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- En caja 	1.518 €<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Cuentas corrientes a la vista	   13.325,47€<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Pendiente de cobrar por parte del ayuntamiento: 3.288€  <br />
+
+		Conchi explica que en las fiestas de Abril hubo pérdidas debido sobre todo al mal tiempo que hizo. <br />
+		Jesús expone que se ha preguntado varias veces al ayuntamiento por el dinero que nos deben pero nunca hay respuesta. No se presupuesta los gastos de fiestas. Y que va a solicitar que nos paguen los gastos de 2000€ que ya estaban comprometidos. <br />
+		Miriam, dice que se ha solicitado por escrito formal al ayuntamiento y tampoco ha habido respuesta.   <br /> 		
+		Tras esto, las cuentas son aprobadas por unanimidad.<br />
+		</p>
+    		</td>    		    		
+  		</tr>
+    		<td colspan="4"><p><strong> 5.-Informe de lotería por parte del vocal José Antonio Granda </strong><br />
+    		Expone la cuenta de resultados del año 2011. Ha supuesto un beneficio neto para la Peña de 3.374,60 €.<br />
+		Tras exponer esto, se anima a la gente a que venda lotería, para que no lo hagan sólo los de todos los años. Este año se pondrá en los tacos un número de cuenta para que se pueda ingresar lo recaudado con la venta de lotería.
+		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 6.- Propuesta de actividades para el próximo ejercicio   </strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a)Jesús propone hacer un homenaje a los músicos que tiene y ha tenido Valdevarnés en las fiestas de abril. Y se ofrece a organizarlo. 
+		<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b)Jesús también propone continuar con las tareas del Pilar. Ha hablado de comprar la parte de Martín y nos la dejaría en 1000€ y terminar de adecuar el Pilar poniendo bancos, hacer la pared del fondo,… solicitando al ayuntamiento que colabore con los operarios y las maquinaria.
+		<br />Por lo importante de la propuesta al incluir la compra por parte de la Peña del terreno se decide hacer una reunión extraordinaria para aprobar o no este punto. 
+		<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c)Iñaki propone hacer una matanza.
+		<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;d)	Se discute sobre la fecha y organización de las fiestas de la peña. Tras un amplio debate, se decide que sean el 4 y 5 de mayo, y obedecerá al siguiente programa:
+    		<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sábado 4 de mayo:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarde: Homenaje a los músicos de Valdevarnés<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Noche: Velada con orquesta.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Domingo 5 de mayo:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misa sobre las 12:00.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vermouth en la plaza.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comida comunitaria<br />
+		
+		<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;e) Óscar propone recuperar el partido de casados y solteros. 
+		<br /><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;f)Se habla de que hacer en las fiestas de septiembre si el ayuntamiento no paga lo que nos debe, y se decide que no haya orquesta si el ayuntamiento no se pone al día en los pagos. 
+
+
+		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 7.- Elección de miembros de la Junta Directiva  </strong><br />
+    		Son aceptados con 28 votos a favor y 2 en contra, los siguientes cargos:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Presidente: Hontanares Sanz Asenjo<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Secretaria: Cristina González de Miguel <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tesorera: Miriam Alonso Sanz<br />
+		Además, funcionarán las siguientes comisiones de trabajo:
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Fiestas de abril: Eva, Nuria, Conchi y Miriam.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Música: Alfredo y Óscar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Montaje de chiringuitos: Adrián, Pablo y Santi.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Fiesta de la cerveza: Federico, Iñaki y Nuria Melero.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Actividades culturales: Viky, Núria Melero, Soraya y Paloma.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Loteria: Fede, José Antonio y Alejandro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Bar: Enrique y Audelino.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Página web: Ana Torres.<br />
+		Se hace hincapié en que la comisión del Bar sólo tiene que llevar que no falte bebida, NO son los encargados de limpiar la peña, ni de fregar los vasos, ni son los camareros de todos. <br />
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 8.- Ruegos y preguntas  </strong><br />
+    		Se formulan las siguientes:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1.Fede propone renovar el mobiliario de la peña, hacen falta sillas y mesas. Fede se queda encargado de comprarlo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2.José propone que se participe mas en la venta de loteria.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-3.Nano recuerda que el año pasado se propuso replantar la Marciel y no se ha hecho nada. <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-4.Alfredo expone que su padre se ha jubilado y hay que mover el buzón de correos a una pared de edificio público y propone que se ponga en la peña. Jesús propone que se ponga en las escuelas. <br />
+			
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		</table>			
+			
+		</div>
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">
+				<strong>Zalbo/a:</strong> De haz, cara, y albo, blanco.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Vall. <em>Dícese de la oveja que tiene toda la cara blanca.</em><br />
+
+				<strong>Zamarra:</strong> Del vasc. zamarra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Prenda de vestir, rústica, hecha de piel con su lana o pelo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Pelliza, chaqueta de abrigo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Piel de carnero.<br />
+
+				<strong>Zambomba:</strong> De or. onomatopéyico.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Instrumento rústico musical, de barro cocido o de madera, hueco, abierto por un extremo y cerrado por el otro con una piel muy tirante, que tiene en el centro, bien sujeto, un carrizo a manera de mástil, el cual, frotado de arriba abajo y de abajo arriba con la mano humedecida, produce un sonido fuerte, ronco y monótono.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sal., Seg., Vallad. y Zam. <em>Vejiga de cerdo inflada.</em><br />
+
+				<strong>Zamborgas*: </strong> <em>Gordo, pesado, falto de agilidad e inepto para hacer algo.</em><br />
+
+				<strong>Zapatero:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Perteneciente o relativo al zapato.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Aplícase a las legumbres y otros alimentos que se encrudecen de resultas de echar agua fría en la olla cuando se están cociendo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Aplícase a los alimentos que se ponen correosos por estar guisados con demasiada anticipación.</em> Patatas ZAPATERAS.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. m. y f. Persona que por oficio hace zapatos, los arregla o los vende.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. m Palometa, japuta. <em>Pez teleósteo del suborden de los acantopterigios, de color plomizo, de unos 35 centímetros de largo y casi otro tanto de alto, cabeza pequeña, boca redonda, armada de dientes finos, largos y apretados a manera de brocha, escamas regulares y romboidales, que se extienden hasta cubrir las aletas dorsal y anal, cola en forma de media luna, y aleta pectoral muy larga. Vive en el Mediterráneo y es comestible apreciado.</em><br />
+
+				<strong>Zarcera:</strong> De cierzo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Cast., León y Rioja. Respiradero abierto en las bodegas para su ventilación.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Murc. Abertura en las fachadas de las casas de labor, por la que se meten y se sacan los zarzos.<br />
+
+				<strong>Zarpas:</strong> Plural de zarpa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Mano de ciertos animales cuyos dedos no se mueven con independencia unos de otros, como en el león y el tigre.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Lodo o barro que se queda en la parte baja de la ropa, mas concretamente del calzado.</em><br />
+
+				<strong>Zarrapastroso:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. fam. <em>Desaseado, andrajoso, desaliñado y roto. Ú. t. c. s.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Hablando de personas, despreciable. Ú. m. en f.<br />
+
+				<strong>Zarria**: </strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. And. charro, basto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cantidad  despreciable de algo. Quedaron unas zarrias.</em><br />
+
+				<strong>Zarrioso:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Lleno de zarrias, de lodo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ál. y Nav. <em>Desmadejado, falto de energía.</em><br />
+
+				<strong>Zascandil:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Hombre despreciable, ligero y enredador.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. desus. Hombre astuto, engañador, por lo común estafador.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. desus. Golpe repentino o acción pronta e impensada que sobreviene, comparable a un candilazo.<br />
+
+				<strong>Zopenco:</strong> De zopo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. fam. <em>Tonto y abrutado.</em> Ú. t. c. s.<br />
+
+				<strong>Zoqueta:</strong> De zueco.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Ar., Nav. y Rioja. <em>Especie de guante de madera con que el segador resguarda de los cortes de la hoz los dedos meñique, anular y corazón de la mano izquierda.</em><br />
+
+				<strong>Zorrera: </strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Cueva de zorros.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Acción y efecto de azorrarse.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. <em>Habitación en que hay mucho humo, producido dentro de ella.</em><br />
+
+				<strong>Zullarse:</strong> De zulla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. prnl. fam. <em>Hacer uno sus necesidades.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Ventosear.<br />
+
+				<strong>Zulleta*: </strong><em>Mierda o excremento de vaca con su peculiar forma redonda.</em><br />
+
+				<strong>Zumbar:</strong> De or. onomatopéyico.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Producir una cosa ruido o sonido continuado y bronco, como el que se produce a veces dentro de los mismos oídos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. tr. fam. Tratándose de golpes, dar, atizar. Le ZUMBÓ una bofetada.<br />
+
+				<strong>Zumbo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <em>Cencerro que se pone a la guía o cabestro, y por lo regular se le echa un sobrecerco a la boca para que suene más.</em><br />
+
+				<strong>Zurra:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Acción de zurrar las pieles.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Castigo que se da a uno, especialmente de azotes o golpes.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Continuación del trabajo en cualquier materia, especialmente leyendo o estudiando.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. Contienda, disputa o pendencia pesada, en que algunos suelen quedar maltratados.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. C. Real y Tol. Sangría, bebida refrescante.<br />
+
+				<strong>Zurriagazo:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Golpe dado con el zurriago.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. <em>Golpe dado con una cosa flexible como el zurriago.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Desgracia o mal suceso inesperado, que sobreviene en el negocio emprendido.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Mal trato o desdén de quien no se creyera que pudiese hacer algún daño o perjuicio.<br />
+
+				<strong>Zurrón:</strong> Del vasc. zorro, saco.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Bolsa grande de pellejo, que regularmente usan los pastores para guardar y llevar su comida u otras cosas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cualquier bolsa de cuero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cáscara primera y más tierna en que están encerrados y como defendidos y guardados algunos frutos, para que lleguen a su perfecta sazón.<br />
+
+
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">						
+					
+				<strong>Tabardo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Prenda de abrigo ancha y larga, de paño tosco, con las mangas bobas, que se usa en el campo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Cualquier prenda de abrigo basta.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ropón blasonado que usaban antiguamente los heraldos y reyes de armas, y que usan todavía los empleados de ciertas corporaciones; como los maceros de las Cortes y los de algunos ayuntamientos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Especie de gabán sin mangas, de paño o de piel.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Chaquetón militar, que formaba parte del uniforme de invierno del soldado.<br />
+
+				<strong>Talego:</strong> De talega.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Saco largo y estrecho, de lienzo basto o de lona, que sirve para guardar o llevar una cosa.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. vulg. Cárcel.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. vulg. Billete de mil pesetas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. Persona poco esbelta y muy ancha de cintura.<br />
+
+				<strong>Tallar:</strong> De tallo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Que puede ser talado o cortado. <em>Monte, leña</em> TALLAR. Ú. t. c. s. m.<br />
+
+				<strong>Tamboril**: </strong>De tamborín.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Tambor pequeño</em> que, colgado del brazo izquierdo, se toca con un solo palillo o baqueta, y, acompañando por lo común al pito, se usa en las danzas populares.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como tamboril en boda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fam. Dícese de lo que seguramente no ha de faltar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tamboril por gaita.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fam. Con que se indica que lo mismo le da a uno una cosa que otra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cuenco de lata, generalmente de sardinas o escabeche, usado como medida de capacidad para medir el grano empleado en echar al ganado.</em><br />
+
+				<strong>Tamo:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Pelusa que se desprende del lino, algodón o lana.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Polvo o paja muy menuda de varias semillas trilladas; como trigo, lino, etc.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Pelusilla que se cría debajo de las camas y otros muebles por falta de aseo.<br />
+
+				<strong>Tanga**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Juego en que se tira con chapas o tejos a una pieza con monedas que se pone levantada en tierra, chito.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. La pieza sobre la que se ponen las monedas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Canto o pieza circular de hierro con el que se tira a la chita.</em><br />
+
+				<strong>Tapabocas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Tapaboca o bufanda.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Taco cilíndrico de madera, con que se cierra y preserva el ánima de las piezas de artillería.<br />
+
+				<strong>Tapial:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Molde de dos tableros paralelos en que se forman las tapias.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Trozo de pared</em> que se hace con tierra amasada y pared formada de esta manera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Seg. <em>Adral del carro. Cada uno de los zarzos o tablas que se ponen en los costados del carro para que no se caiga lo que va en él. Ú. m. en pl.</em><br />
+
+				<strong>Tarambana:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. com. fam. <em>Persona alocada,</em> de poco juicio. Ú. t. c. adj.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ál. Tarabilla de una puerta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ál. Trozo de tabla que se pone al ganado en una pata para que no se aleje.<br />
+
+				<strong>Tarjar**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Señalar o rayar en la tarja lo que se va sacando fiado, o lo que se cuenta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Hacer una TARJA o muesca, como señal propia en la oreja del ganado.</em><br />
+
+				<strong>Telera:</strong> Del lat. *telaria, de telum, espada.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Travesaño de hierro o de madera que sujeta el dental a la cama del arado o al timón mismo, y sirve para graduar la inclinación de la reja y la profundidad de la labor.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Redil formado por palos y estacas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cada uno de los dos maderos paralelos que, unidos por husillos y tuercas, forman las prensas de carpinteros, encuadernadores y otros artesanos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Travesaño de madera con que se enlaza cada lado del pértigo con las tijeras o largueros de la escalera del carro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <em>Cada una de las secciones móviles del vallado con que se forma el redil.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Montón en forma piramidal que en las minas de la provincia de Huelva se hacía con los minerales de pirita de cobre para calcinarlos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Mecanismo auxiliar empleado en las hilaturas para transportar automáticamente, en una cinta sin fin, las fibras entre dos puntos de	trabajo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. And. Pan bazo grande y de forma ovalada que suelen comer los trabajadores.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Art. Cada una de las tablas que en las cureñas unen y afirman las gualderas.<br />
+
+				<strong>Tenada:</strong> Del lat. *tignata, de tignum, madero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>tinada, cobertizo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Ast. y León. henil.<br />
+
+				<strong>Tentemozo:</strong> De tente y mozo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Puntal o arrimo que se aplica a una cosa expuesta a caerse o que amenaza ruina.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Palo que cuelga del pértigo del carro y, puesto de punta contra el suelo, impide que aquel caiga hacia adelante.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. tentetieso, muñeco.<br />
+
+				<strong>Tercerilla:</strong> D. de tercera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Salvado, cáscara del grano.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Métr. Composición métrica de tres versos de arte menor, dos de los cuales riman o hacen consonancia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>A la tercerilla. Una si y una no. Hacer algo alternativamente.</em><br />
+
+				<strong>Testerazo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. M. testarada, golpe dado con la testa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Por ext., golpe, porrazo, encuentro violento.</em><br />
+
+				<strong>Tete*:</strong>  <em>Ombligo.</em><br />
+
+				<strong>Tijereta:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. F. d. de tijera. Ú. m. en pl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cada uno de los zarcillos que por pares nacen a trechos en los sarmientos de las vides.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Cortapicos. En Valdevarnés, tijereta o cortapichas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Ave palmípeda de América Meridional, con el pico aplanado, cortante y desigual, cuello largo y cola ahorquillada.<br />
+
+				<strong>Tiñoso:</strong> Del lat. tineosus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Que padece tiña. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Escaso, miserable y ruin. Ú. t. c. s.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fam. Ar. y Áv. Dícese del que tiene buena suerte en el juego.<br />
+
+				<strong>Tiracantos**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. Echacantos, hombre inepto para un oficio.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Tirachinas.</em><br />
+
+				<strong>Toba**:</strong> Del lat. tofus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Piedra caliza, muy porosa y ligera, formada por la cal que llevan en disolución las aguas de ciertos manantiales y que van depositándola en el suelo o sobre las plantas u otras cosas que hallan a su paso.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sarro, de los dientes.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cardo borriquero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. <em>Capa o corteza que por distintas causas se cría en algunas cosas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tierra arcillosa de buen asiento para los cimientos y que permite excavar bodegas con una amplia bóveda, al contrario que las areniscas.  </em><br />
+
+				<strong>Tocón:</strong> De tueco.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Parte del tronco de un árbol que queda unida a la raíz cuando lo cortan por el pie.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Muñón de un miembro cortado.<br />
+
+				<strong>Tontera:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Tontería, simpleza.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. Tonto, simple.<br />
+
+				<strong>Tostón:</strong> De tostar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Torrado, garbanzo tostado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Trozo pequeño de pan frito, generalmente en forma de cubo, que se añade a las sopas, purés, etc. Ú. m. en pl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cosa demasiado tostada.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Cochinillo asado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <em>Tabarra, lata.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Persona habladora y sin sustancia.<br />
+
+				<strong>Torcida:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Mecha de algodón o trapo torcido, que se pone en los velones, candiles, velas, etc.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. And. Ración diaria de carne que se da en los molinos de aceite al oficial que muele la aceituna.<br />
+
+				<strong>Tordo:</strong> Del lat. turdus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Dícese del caballo o yegua, o del mulo o mula, que tiene el pelo mezclado de negro y blanco, como el plumaje del tordo. Ú. t.c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. Pájaro de unos 24 centímetros de largo, cuerpo grueso, pico delgado y negro, lomo gris aceitunado, vientre blanco amarillento con manchas pardas redondas o triangulares y las cobijas de color amarillo rojizo. Es común en España y se alimenta de insectos y de frutos, principalmente de aceitunas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Pájaro semejante al estornino y de color negro uniforme.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. adj. Torpe, tonto.<br />
+
+				<strong>Torniscón:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Golpe que de mano de otro recibe uno en la cara o en la cabeza, y especialmente cuando se da de revés.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Pellizco retorcido.<br />
+
+				<strong>Tralla:</strong> Del lat. tragula.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Cuerda más gruesa que el bramante.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Trencilla de cordel o de seda que se pone al extremo del látigo para que restalle.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Látigo provisto de este cordel.</em><br />
+
+				<strong>Tranca:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Palo grueso y fuerte.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Palo grueso que se pone para mayor seguridad, a manera de puntal o atravesado detrás de una puerta o ventana cerrada.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fam. <em>Borrachera, embriaguez.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A trancas y barrancas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Pasando sobre todos los obstáculos.<br />
+
+				<strong>Trancón*: </strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Tranca, cerrojo para atrancar.</em><br />
+
+				<strong>Traqueteo:</strong> De traquetear.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Ruido continuo del disparo de los cohetes, en los fuegos artificiales.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Movimiento de una persona o cosa que se golpea al transportarla de un punto a otro.</em><br />
+
+				<strong>Trasegar:</strong> Del lat. *transicare, de transire, pasar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Trastornar, revolver.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Mudar las cosas de un lugar a otro, y en especial un líquido de una vasija a otra.<em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Beber en cantidad vino y licores.<br />
+
+				<strong>Trastabillar:</strong> De trastrabillar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Dar traspiés o tropezones.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tambalear, vacilar, titubear.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Tartalear, tartamudear, trabarse la lengua.<br />
+
+				<strong>Trébedes:</strong> De trébede, del lat. tripes, -edis, que tiene tres pies.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Habitación o parte de ella que, a modo de hipocausto, se calienta con paja. Es común en varias comarcas de Castilla la Vieja donde escasea la leña.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. pl. <em>Aro o triángulo de hierro con tres pies, que sirve para poner al fuego sartenes, peroles, etc.</em><br />
+
+				<strong>Triguero/a**:</strong> Del lat. triticarius.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Perteneciente o relativo al trigo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Que se cría o anda entre el trigo. Espárrago, pájaro TRIGUERO.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Aplícase al terreno en que se da bien el trigo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. m. y f. Persona que comercia y trafica en trigo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Gorrión. Oveja que se va a los trigos.</em><br />
+
+				<strong>Trillo:</strong> Del lat. tribulum.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Instrumento para trillar, que comúnmente consiste en un tablón con pedazos de pedernal o cuchillas de acero encajadas en una de sus caras.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Can. y Amér. Senda formada comúnmente por el tránsito.<br />
+
+				<strong>Trompazo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Golpe dado con el trompo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Golpe dado con la trompa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. <em>Cualquier golpe recio.</em><br />
+
+				<strong>Tronchar:</strong> De troncho.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Partir o romper sin herramienta un vegetal por su tronco, tallo o ramas principales. El viento TRONCHÓ el árbol. Ú. t. c. prnl.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Partir o romper con violencia cualquier cosa de figura parecida a la de un tronco o tallo. TRONCHAR un palo, un bastón, una barra. Ú. m. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Truncar, impedir que se realice una cosa. Ú. t. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. troncharse de risa.<br />
+
+				<strong>Troncho:</strong> Del lat. trunculus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Tallo de las hortalizas.</em><br />
+
+				<strong>Tronera:</strong> De trueno.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Abertura en el costado de un buque, en el parapeto de una muralla o en el espaldón de una batería, para disparar con seguridad y acierto los cañones.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Ventana pequeña y angosta por donde entra escasamente la luz.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Juguete de papel plegado de modo que, al sacudirlo con fuerza, por la parte recogida sale detonando.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Cada uno de los agujeros o aberturas que hay en las mesas de trucos y de billar, para que por ellos entren las bolas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. com. fig. y fam. Calavera, persona de vida disipada y libertina.<br />
+
+				<strong>Tronzar:</strong> Del lat. *trunciare, de truncare.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Dividir o hacer trozos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Hacer cierto género de pliegues iguales y muy menudos en las faldas de los vestidos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Cansar excesivamente, rendir de fatiga corporal. Ú. t. c. prnl.<br />
+
+				<strong>Tunante:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. a. de tunar. Que tuna. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj. <em>Pícaro, bribón, taimado. Ú. t. c. s.</em><br />
+
+				<strong>Turca:</strong> De turco, vino.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Borrachera, embriaguez.</em><br />
+
+				<strong>Turmas:</strong> Del lat. turma.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Testículo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Criadillas de los animales.</em><br />
+
+				<strong>Turrundera*:</strong> Avalancha, alud.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Gran masa de nieve que se derrumba de los montes con violencia y estrépito.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Masa grande de una materia que se desprende por una vertiente, precipitándose por ella. Ú. t. en sent. fig.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Derrumbamiento de tierra, piedras de un montón o de paja en el pajar, por ejemplo.<br />
+
+				<strong>Tuso:</strong> De tus1.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. Perro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Voz para llamar o espantar a los perros.</em><br />
+				
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

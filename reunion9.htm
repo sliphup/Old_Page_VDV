@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px">
+					<a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a>
+			</span>
+			<span style="float:right">
+				<a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a>
+			</span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+				<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right">
+				<a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Acta 25 Octubre 2014</span></h3>
+			
+			<p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se muestra a continuación un resumen del acta de la asamblea
+				 general de la Asociación cultural "Peña los Comuneros" de 2014.			  
+			</p>		
+			<table width="90%"  border="2px" bordercolor="#416D8E"  cellpadding="10px" cellspacing="0px" style="margin-bottom:10px" align="center">  
+  		<tr>
+    		<td><strong>FECHA</strong></td>
+    		<td colspan="3"><strong>25 de Octubre de 2014</strong></td>    		
+  		</tr>
+  		<tr>
+    		<td><strong>PRESIDIDA</strong></td>
+    		<td>Alberto Armendariz</td>  
+    		<td><strong>SECRETARIO</strong></td>
+    		<td>Cristina Gonzalez de Miguel</td>  		
+  		</tr>
+  		<tr>
+    		<td><strong>ASISTENTES</strong></td>
+    		<td colspan="3">26 socios y 4 votos delegados</td>    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p align="center"><strong>ORDEN DEL DÍA</strong></p></td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 1.- Lectura y aprobación, si procede, del acta de la asamblea anterior</strong><br />
+    		Es aprobada por unanimidad tras haberla leído la secretaria pero se realiza una anotación en el punto 4 donde aparecía la palabra beneficio, y es cambiada por saldo ya que el contenido no es el mismo.
+    		</p>
+    		</td>    		    		
+  		</tr>
+		<tr>
+    		<td colspan="4"><p><strong> 2.- Renovación de los cargos de la Junta Directiva.</strong><br />
+    		Este punto es adelantado en el orden de puntos a tratar para evitar que se vayan los asistentes.Se requiere el cambio de tres puestos: secretaria, tesorera y encargado de bar.Alberto Almendariz sigue siendo presidente.<br />
+		El puesto de encargado de bar queda vacante ya que no se ofrece ningún voluntario para el cargo.<br />
+		Tras proponer una reunión extraordinaria debido a que nadie se ofrece para cubrir ningún cargo Noelia García se presenta como tesorera y Soraya González como secretaría con la petición de que se considere el pago de cuotas por banco o domiciliación. Ambas voluntariamente.<br />
+		Se aprueban los nuevos cargos por unanimidad.
+		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		<tr>
+    		<td colspan="4"><p><strong> 3.- Informe del secretario sobre la relación actual de socios</strong><br />
+    		 La secretaria informa que actualmente existen 149 socios. <br />
+		Causan baja los socios: Mariano Ahijado Díaz, Maria Concepción González García, Mercedes García Maté, Fernando Martínez Melero, Alberto Puertas Marin, Conchi Sánchez Núñez, Cesar Baciero Lorenzo, Alberto de la Hoz de la Hoz, Jose María García Carbón, Paula Granda Meréndez, Francisco Melero del Cura, Raquel Madrigal Noraga, Laura Madrigal Noraga, ariana Salas Montero. De los cuales 6 son de manera voluntaria y los restantes 8 por impago. <br />
+		Causan alta los nuevos socios:<br />
+		En el 2014: Noelia López García, Laurra García López, Lourdes Gonzalez Esteban, Roberto Berruguete Albertos, David Alonso Granda.<br />	
+		En el 2013: Héctor López González, Álvaro Granda Armendáriz, Ana Sanz Asenjo.<br />
+		</p>
+    		</td>    		    		
+  		</tr>
+
+		<tr>
+    		<td colspan="4"><p><strong> 4.- Informe de lotería por parte del vocal José Antonio Granda. </strong><br />
+		Se presentan las cuentas del año 2013 . Se detallan 5.000 papeleteas de las que fueron vendidas 3.554.
+		<br />
+		En cuanto al número de lotería vendido por Internet se han recaudado 122 euros.<br />
+		El beneficio total obtenido por la venta de lotería es de 4728 euros del cual están reservados 400 euros para el pago del Ipad que se sorteó.<br />
+		Se queda el domingo 26 a las 11.30 para sellar las papeletas y se continúa con el sorteo del Ipad.<br />
+		Es aprobado por unanimidad.<br />
+		</p>
+    		</td>    		    		
+  		</tr>
+		
+  		<tr>
+    		<td colspan="4"><p><strong> 5.- Presentación de cuentas del ejercicio por parte del tesorero.</strong><br />
+    		El tesorero, Miriam Alonso Sanz, reparte a los asistentes copias del informe económico. En él se observa que el patrimonio neto es de 21743,20 euros. Además nos informa que el año pasado el ayuntamiento de Campo pagó lo correspondiente a las fiestas del año 2012 y 2013 y de que este año ellos pagaron la orquesta, por lo que ya no nos deben nada. <br />
+		En cuanto a la comisión encargada de realizar un presupuesto para el arreglo del parque de El Pilar confirman que seguirán trabajando en ello.<br />
+
+		Se comenta que en las fiestas de Septiembre del año 2014 la fiesta de la cerveza tuvo un beneficio escaso de 495 euros.<br />
+	
+		Tras esto, las cuentas son aprobadas por unanimidad.<br />
+		</p>
+    		</td>    		    		
+  		</tr>
+    		
+  		
+  		<tr>
+    		<td colspan="4"><p><strong> 6.- Propuesta de actividades para el próximo ejercicio. </strong><br />
+    		a) Montse propone que se piense en otro enfoque para la fiesta de la cerveza ya que ha habido pocos beneficios pero se deja el beneficio de la duda de que haya podido ser por un mal año ya que otros años ha proporcionado mayores beneficios.<br />
+		b) Alberto pide a Clemente y Jose Luis que vayan a Boceguillas y pidan presupuesto para nuevos palos de las tortas, canastas, puerta de la peña y la ventana de la parte de abajo de la peña. También propone cerrar la parte de abajo de la peña entre la barra y la pista de manera que se pueda abrir y cerrar según se necesite.<br />
+		Nuria plantea el problema que podría suponer a la hora de escuchar música. Clemente se encarga de preguntar en Boceguillas sobre este tema también.<br />
+		Antonio Melero proponer que se cierre con un tablero aglomerado.<br />
+		Amando dice que sea algo corredizo para que sea más fácil, no suponga problemas a la hora de quitarlo o ponerlo y no se dependa de una sóla persona que sepa hacerlo.<br />
+
+		c)En cuanto a las próximas fiestas de Mayo se propone que sean los días 1, 2 y3 (viernes, sabado y domingo respectivamente) con la siguiente programación:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Viernes 1: Montaje y preparativos. Paella popular o merienda y la actuación de Juan Luis si él pudiera<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sábado 2: Comida en la plaza y orquesta a la noche.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Domingo 3: vermouth en la plaza y recogida.<br /><br />
+		Votos a favor: 24<br />
+		Se abstienen: 6<br />
+		Nuria propone una concentración de charangas para el viernes de fiestas. SE encargará de intentar llevarlo a cabo, en caso de que finalmente no se pueda se contará con Juan Luis si el confirma que puede.<br />
+				</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 7.- Ruegos y preguntas  </strong><br />
+    		Se formulan las siguientes:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1. Fede: en cuanto al tema de la barra considera que quien coja la barra en verano debe tener todo decente.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2. Lucia: propone que se coja la barra en verano por semanas y no durante todo el verano.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-3. Cristina: propone que se piense la posibilidad de retomar las cenas en la peña.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-4. Alberto: califica de vergüenza el hecho de que en la comida de mayo desaparecieran dos cuartos y propone que se encarguen 3 o 4 personas de controlar y repartir el asado en las fiestas. Esto es aprobado por unanimidad.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-5. Soraya: propone domiciliar las cuentas. Miriam informa que ha hablado con el banco a este respecto y le han comentado que costaría 1 euros por cada domiciliación por lo que se plantea que las cuotas se tendrán que pagar por banco (antes de las fiestas) o el domingo de 13.00 a 14.00 ÚNICA Y EXCLUSIVAMENTE. SI alguien no paga de una de estas maneras tendrá que pagar otro día por banco. No habrá otra manera ni otro momento de pago.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-6. Nuria sigue encargada de la fiesta de la cerveza junto con Fede y propone que una vez al año se haga una limpieza general de la peña.<br />
+	
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		</table>			
+			
+		</div>
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>		
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">																	
+		<strong>Cabezada:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Golpe dado con la cabeza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. El que se recibe en ella chocando con un cuerpo duro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Cada movimiento o inclinación que hace con la cabeza el que, sin estar acostado, se va durmiendo.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Inclinación de cabeza, como saludo de cortesía.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Acción de cabecear una embarcación.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. <em>Correaje que ciñe y sujeta la cabeza de una caballería, al que está unido el ramal.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Guarnición de cuero, cáñamo o seda que se pone a las caballerías en la cabeza y sirve para afianzar el bocado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Cordel con que los encuadernadores cosen las cabeceras de los libros.<br />
+
+		<strong>Cachazas:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Lentitud y sosiego en el modo de hablar o de obrar; flema, frialdad de ánimo.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Aguardiente de melaza de caña.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Espumas e impurezas que sobrenadan en el jugo de la caña de azúcar al someterlo a la acción del fuego.<br />
+
+		<strong>Cachondeo:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. vulg. Acción y efecto de cachondearse.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. vulg. Por ext., <em>desbarajuste, desorden, guirigay.</em><br />
+
+		<strong>Cagado de rana*:</strong> <em>Algas verdosas que se crian en aguas estancadas, bordes de charcos, arroyos y pilones.</em><br />
+
+		<strong>Cagarruta:</strong> De cagar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Porción de excremento de ganado menor y, por ext., de otros animales.</em><br />
+
+		<strong>Cagaza*:</strong> <em> Heces o cagada de gallina.</em><br />
+
+		<strong>Cagurria*:</strong> <em>Excremento del ganado menor, principalmente el de oveja.</em><br />
+ 
+		<strong>Calaña:</strong> De un der. del lat. qualis.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Muestra, modelo, patrón, forma.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. <em>Índole, calidad, naturaleza de una persona o cosa. Ser de buena, o mala, CALAÑA. Ú. m. en sentido despectivo.</em><br />
+
+		<strong>Calcañal:</strong> Calcañar, de calcaño.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Parte posterior de la planta del pie.</em><br />
+
+		<strong>Calostro:</strong> Del lat. colostrum.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Primera leche que da la hembra después de parida.</em> Ú. t. en pl.<br />
+
+		<strong>Calvero:</strong> De calva.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Paraje sin árboles en lo interior de un bosque.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Gredal, terreno gredoso.</em><br />
+
+		<strong>Calvorota*:</strong> <em>Parte calva de la cabeza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Persona calva en sentido jocoso.</em><br />
+
+		<strong>Calzar:</strong> Del lat. *calceare, de calceus, calzado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Cubrir el pie y algunas veces la pierna con el calzado. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tratándose de guantes, espuelas, etc., usarlos o llevarlos puestos. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Poner calces.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Poner una cuña entre el piso y alguna rueda de un carruaje o máquina, que los inmovilice, o que debajo de cualquier mueble o trasto lo afirme de modo que no cojee.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <em>En los coches y carros, ponerles una piedra u otro obstáculo arrimado a la rueda, para que se detengan cuando están en cuesta.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Admitir las armas de fuego bala de un calibre determinado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. En la reja del arado, poner otra nueva para reemplazar a la ya gastada.<br />
+
+		<strong>Calzo:</strong> De calzar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Calce, cuña que se introduce entre dos cuerpos.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Muelle sobre el cual se aseguraba la patilla de la llave del arcabuz cuando se la ponía en el punto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Mar. Cada uno de los maderos de forma adecuada que se disponen a bordo para que en ellos descansen y puedan afirmarse algunos objetos pesados.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Mar. Calza, <em>cuña con que se calza.</em><br />
+
+		<strong> Camándulas:</strong> De camándula.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Camáldula.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Rosario de uno o tres dieces.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Hipocresía, astucia.</em> Ú. m. en la fr. tener muchas camándulas.<br />
+
+		<strong>Cámbara*:</strong> <em>Cámara donde se recogían los granos.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desván.<br />
+
+		<strong>Cambaril*:</strong> <em>Cámbara pequeña, normalmente con techo y sin alguna de las paredes.</em><br />
+
+		<strong>Camocha*:</strong> <em>Cabeza de algo o alguien.</em><br />
+
+		<strong>Campanillo**:</strong> D. de campana.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Ál. Cencerro de cobre o bronce en forma de campana.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Campana más pequeña y de usos más variados que la grande.</em><br />
+
+		<strong>Camuñas*:</strong> <em>Persona astuta, zorrera y arañadora.</em><br />
+
+		<strong>Canales:</strong> Canal. Del lat. canalis.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. amb. Cauce artificial por donde se conduce el agua para darle salida o para diversos usos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Parte más profunda y limpia de la entrada de un puerto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. En el mar, lugar estrecho por donde sigue el hilo de la corriente hasta salir a mayor anchura y profundidad.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Cualquiera de las vías por donde las aguas o los gases circulan en el seno de la tierra.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Llanura larga y estrecha entre dos montañas.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. <em>Teja delgada y mucho más combada que las comunes, la cual sirve para formar en los tejados los conductos por donde corre el agua.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Cada uno de estos conductos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Cualquier conducto del cuerpo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Camellón. <em>Recipiente de madera alargado u hueco donde come el ganado lanar.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Res muerta y abierta, sin las tripas y demás despojos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Correr las canales.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. Caer el agua por ellas, por haber llovido en abundancia.<br />
+
+		<strong>Candil:</strong> Del lat. candela, a través del mozár. qindil.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Utensilio para alumbrar, dotado de un recipiente de aceite y torcida y una varilla con gancho para colgarlo.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Lamparilla manual de aceite, usada antiguamente, en forma de taza cubierta, que tenía en su borde superior, por un lado, la piquera o mechero, y por el otro el asa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Punta alta de las cuernas de los venados.<br />
+
+		<strong>Canear**:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. And. Encanecer, ponerse cano.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. tr. Murc. Calentar al sol alguna cosa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Pegar a alguien.</em><br />
+
+		<strong>Canilla:</strong> Del lat. *cannella, d. de canna, caña.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Cualquiera de los huesos largos de la pierna o del brazo y especialmente la tibia.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cualquiera de los huesos principales del ala del ave.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Espita, canuto de la cuba.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Carrete metálico en que se devana la seda o el hilo y que va dentro de la lanzadera en las máquinas de tejer y coser.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Lista que en los tejidos suelen formar, por descuido, algunas hebras de distinto color o grueso.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. <em>Pierna, especialmente si es muy delgada.</em><br />
+
+		<strong>Cantamañanas:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. com. fam. <em>Persona informal, fantasiosa, irresponsable, que no merece crédito.</em><br />
+
+		<strong>Cántara:</strong> De cántaro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Medida de capacidad para líquidos, que tiene ocho azumbres y equivale a 1.613 centilitros aprox.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cántaro.<br />
+
+		<strong>Cántaro:</strong> Del gr. k§nqaroj, a través del lat. cantharus.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Vasija grande de barro o metal, angosta de boca, ancha por la barriga y estrecha por el pie y por lo común con una o dos asas.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Todo el líquido que cabe en un cántaro. Bebió medio CÁNTARO de agua.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Medida de vino, de diferente cabida según las varias regiones de España.<br />
+
+		<strong>Cañón**:</strong> De caño. En las bodegas, subterráneos donde están las cubas.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cada uno de los túneles o ramales que tiene una bodega.</em><br />
+
+		<strong>Carambujo*:</strong> <em>Escaramujo o caramujo.</em><br />
+
+		<strong>Caramujo:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Rosal silvestre.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Especie de caracol pequeño que se pega a los fondos de los buques.<br />
+
+		<strong>Cardenillo:</strong> D. de cárdeno.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Quím. Mezcla venenosa de acetatos básicos de cobre; es una materia verdosa o azulada, que se forma en los objetos de cobre o sus aleaciones.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Acetato de cobre que se emplea en la pintura.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Color verde claro semejante al del acetato de cobre.</em><br />
+
+		<strong>Carear**:</strong> De cara.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Poner a una o varias personas en presencia de otra u otras, con objeto de apurar la verdad de dichos o hechos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Dirigir el ganado hacia alguna parte.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Pacer o pastar el ganado cuando va de camino.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Dar la última mano a la cara del pan de azúcar para limpiarle el barro de la purga.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. Cotejar una cosa con otra.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Esparcir y extender uniformemente un árido, cereal, etc..</em><br />
+
+		<strong>Carga:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Cosa transportada a hombros, a lomo, o en cualquier vehículo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Peso sostenido por una estructura.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Repuesto del depósito o chasis de un utensilio o aparato cuyo contenido se agota periódicamente. CARGA de un bolígrafo, de una batería.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <em>Unidad de medida de algunos productos forestales, como leñas, carbones, frutos, etc.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <em>Cierta cantidad de granos, que en unas partes es de tres o cuatro fanegas.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Cantidad de sustancia explosiva que se pone en un arma de fuego, en una mina, en un barreno, etc.<br />
+
+		<strong>Cargadero:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Sitio donde se cargan y descargan las mercancías que se transportan.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Conjunto de artefactos instalados para estas operaciones.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Arq. dintel. Parte superior de las puertas, ventanas y otros huecos que carga   sobre las jambas.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Boca superior del horno, particularmente del de fundición.<br />
+
+		<strong>Carraca:</strong> De la onomat. crac.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Instrumento de madera, en que los dientes de una rueda, levantando consecutivamente una o más lengüetas, producen un ruido seco y desapacible.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Col. Mandíbula o quijada seca de algunos animales.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Mec. Mecanismo de rueda dentada y linguete que tienen algunas herramientas para que el movimiento de vaivén del mango solo actúe en un mismo sentido.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Pájaro de tamaño algo menor que la corneja, de cabeza, alas y vientre azules, dorso castaño y pico ganchudo en la punta. Es ave migratoria que pasa el verano en Europa, donde cría.<br />
+
+		<strong>Carrampa*:</strong> Horcajadura. Entrepierna.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Ángulo que forman los dos muslos o piernas en su nacimiento.</em><br />
+
+		<strong>Cascagüeses*:</strong> Cacahuete.Del nahua cacahuatl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Planta papilionácea anual procedente de América, con tallo rastrero y velloso, hojas alternas lobuladas y flores amarillas. El fruto tiene cáscara coriácea y, según la variedad, dos a cuatro semillas blancas y oleaginosas, comestibles después de tostadas. Se cultiva también para la obtención del aceite.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Fruto de esta planta.<br />
+
+		<strong>Cascarria**:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Cazcarria.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.f. Lodo o barro que se coge y seca en la parte de la ropa que va cerca del suelo. <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Excremento seco de animal que formando costra o pelotas se le queda pegado a las nalgas. </em>U. m. en plural.<br />
+
+		<strong>Castaña:</strong> Del lat. castanea.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Fruto del castaño, muy nutritivo y sabroso, del tamaño de la nuez, y cubierto de una cáscara gruesa y correosa de color pardo oscuro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Borrachera.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Bofetada, cachete.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam.<em> Golpe, trompazo, choque.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. y fam.<em> Persona o cosa aburrida o fastidiosa.</em><br />
+
+		<strong>Catacaldos:</strong> De catar y caldo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. com. fig. y fam. <em>Persona que emprende muchas cosas sin fijarse en ninguna.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Persona entremetida.</em><br />
+
+		<strong>Cebadera:</strong> De cebada.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Morral o manta que sirve de pesebre para dar cebada al ganado en el campo.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Arca o cajón en que los posaderos y mayorales de labor tienen la cebada para las caballerías.<br />
+
+		<strong>Cedazo:</strong> Del lat. saetaceum, cribo de seda.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Instrumento compuesto de un aro y de una tela, por lo común de cerdas, más o menos clara, que cierra la parte inferior. Sirve para separar las partes sutiles de las gruesas de algunas cosas; como la harina, el suero, etc.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cierta red grande para pescar.<br />
+
+		<strong>Celemín:</strong> De celemí.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Medida de capacidad para áridos,</em> que tiene cuatro cuartillos y equivale en Castilla a 4,625 litros aprox.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Porción de grano, semillas u otra cosa semejante que llena exactamente la medida del celemín.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Medida antigua superficial</em> que en Castilla equivalía a 537 metros cuadrados aprox., y era el espacio de terreno que se consideraba necesario para sembrar un celemín de trigo.<br />
+
+		<strong>Cencerro:</strong> Formación onomatopéyica de or. inc., problablemente del vasco zinzerri, campanilla del perro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Campana pequeña y cilíndrica, tosca por lo común, hecha con chapa de hierro o de cobre. Se usa para el ganado y suele atarse al pescuezo de las reses.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estar como un cencerro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fr. fig. y fam. Estar chiflado.<br />
+
+		<strong>Cenizo:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. De color de ceniza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. <em>Planta silvestre,</em> de la familia de las quenopodiáceas, con tallo herbáceo, blanquecino, erguido, de seis a ocho decímetros de altura; hojas romboidales, dentadas, verdes por encima y cenicientas por el envés, y flores verdosas en panoja.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. cenicilla.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fam. Aguafiestas, persona que tiene mala sombra o que la trae a los demás.<br />
+
+		<strong>Chamarilero:</strong> De etim. disc.; probablemente del esp. ant. chambariles, instrumentos de zapatero.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f. <em>Persona que se dedica a comprar y vender objetos de lance y trastos viejos.</em><br />
+
+		<strong>Chamarreta:</strong> De chamarra.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Casaquilla que no ajusta al cuerpo, larga hasta poco más abajo de la cintura, abierta por delante, redonda y con mangas.</em><br />
+
+		<strong>Chambergo/a**:</strong> De Schomberg, el mariscal que introdujo la moda en el uniforme.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Aplícase a ciertas prendas del uniforme del regimiento creado en Madrid durante la menor edad de Carlos II para su guardia. Casaca CHAMBERGA. Ú. t. c. s.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Se aplica también a este regimiento.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Dícese del individuo de dicho cuerpo. Ú. t. c. s. <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Prenda de abrigo.</em><br />
+
+		<strong>Chamizo:</strong> De chamiza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Árbol medio quemado o chamuscado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Leño medio quemado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Choza cubierta de chamiza, hierba.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. Tugurio sórdido de gente de mal vivir.<br />
+
+		<strong>Chamuscar:</strong> Del port. chamuscar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr.<em> Quemar una cosa por la parte exterior.</em> Ú. t. c. prnl.<br />
+
+		<strong>Changarro:</strong> Voz onomatopéyica.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Cencerro.</em><br />
+
+		<strong>Changarrear*:</strong> <em>Acción de mover el cencerro o changarro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ir una persona de acá para allá.</em><br />
+
+		<strong>Chaparra:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Coscoja, árbol.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Chaparro, mata. Mata de encina.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Chaparro, arbusto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Coche de caja ancha y poco elevada, usado antiguamente.<br />
+
+		<strong>Chaparrete:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. And. Chaparro,<em> persona rechoncha.</em><br />
+
+		<strong>Chapusquear* :</strong> <em>Dar palmadas o golpes en el agua, haciéndola saltar para mojar o mojarse.</em><br />
+
+		<strong>Chicharro:</strong> Jurel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del grecolat. saurus, lagarto, a través del mozár. surel.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pez teleósteo marino,</em> del suborden de los acantopterigios, de medio metro de largo aproximadamente, cuerpo rollizo, carnoso, <em>de color azul por el lomo y blanco rojizo por el vientre,</em> cabeza corta, escamas pequeñas y muy unidas a la piel, excepto a lo largo de los costados, donde son fuertes y agudas; dos aletas de grandes espinas en el lomo, y cola extensa y muy ahorquillada.<br />
+
+		<strong>Chicharrón:</strong><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Residuo de las pellas del cerdo, después de derretida la manteca. </em>Se llama también así el residuo del sebo de la manteca de otros animales.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Carne u otra vianda requemada.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Persona muy tostada por el sol.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Méj. Piel del cerdo joven, oreada y frita.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. pl. Fiambre formado por trozos de carne de distintas partes del cerdo, prensado en moldes.<br />
+
+		<strong>Chiflar:</strong> Del lat. sifilare.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Silbar</em> con la chifla1, silbato, o imitar su sonido con la boca.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. tr. Mofar, hacer burla o escarnio en público. Ú. t. c. prnl.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fam. <em>Beber mucho y con presteza </em>vino o licores.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. fam. Perder alguien la energía de las <em>facultades mentales.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fam. <em>Tener sorbido el seso</em> por una persona o cosa. Ú. con la prep. por.<br />
+
+		<strong>Chiflo:</strong> Del lat. sifilum, silbo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Chifla,<em> silbato.</em><br />
+
+		<strong>Chinche:</strong> Del lat. cimex, -icis.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f.<em> Insecto hemíptero,</em> de color rojo oscuro, cuerpo muy aplastado, casi elíptico, de cuatro o cinco milímetros de largo, antenas cortas y cabeza inclinada hacia abajo. Es nocturno, fétido y sumamente incómodo, pues chupa la sangre humana taladrando la piel con picaduras irritantes.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. com. fig. y fam.<em> Persona chinchosa. </em>Ú. t. c. adj.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Sumamente pesado y molesto.</em><br />
+
+		<strong>Chinfano*:</strong> <em>Mosquito grande, que solo verlo asusta.</em><br />
+
+		<strong>Chingar:</strong> Voz onomatopéyica.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam.<em> Beber con frecuencia vino o licores.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Amér. Central. Cortar el rabo a un animal.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Importunar, molestar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Practicar el coito, fornicar. Es voz malsonante.<br />
+
+		<strong>Chingoleta*:</strong> <em>Voltereta.</em><br />
+  
+		<strong>Chiquito/a:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Adj. d. de chico. Apl. a pers., ú. t. c. s.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Chico, niño-ña.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. m. Vaso pequeño de vino.<br />
+
+		<strong>Chisporrotear:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. fam. <em>Despedir el fuego </em>o un cuerpo encendido chispas reiteradamente.<br />
+
+		<strong>Chisquera*:</strong> <em>Lumbre, fogata. Fuego hecho con palos.</em><br />
+
+		<strong>Chita:</strong> De chito.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Astrágalo, hueso del pie.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Juego que consiste en poner derecha una chita o taba en sitio determinado, y tirar a ella con tejos o piedras; el que la derriba gana dos tantos, y el que da más cerca, uno.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Chito, pieza de madera.<br />
+
+		<strong>Chospos:</strong> De chozpo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Salto o brinco que da un animal.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Irse echando chospos. Irse rebotado, apresurado y mal hablando.</em><br />
+
+		<strong>Chota:</strong> De chotar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f.<em> Cría de la vaca mientras mama, ternera.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estar como una chota.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Estar como una cabra.<br />
+
+		<strong>Chotear:</strong> De choto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Ar. Retozar, dar muestras de alegría.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. prnl. vulg. <em>Pitorrearse.</em><br />
+
+		<strong>Churra:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Dícese del carnero o de la oveja que tiene las patas y la cabeza cubiertas de pelo grueso, corto y rígido, y cuya <em>lana es más basta y larga que la de la raza merina.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Dícese de esta lana.<br />
+
+		<strong>Chuzo:</strong> De suizo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Palo armado con un pincho de hierro, que se usa para defenderse y ofender.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Carámbano, pedazo de hielo.</em><br />
+
+
+		<strong>Cigüeño**:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. p. us. Macho de la cigüeña.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Persona zanquilarga, mas piernas que cuerpo, cuello largo y cabeza menuda.</em><br />
+
+		<strong>Cilla**:</strong> Del lat. cella, despensa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Casa o cámara donde se recogían los granos.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Renta diezmal.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Muela, planicie en lo alto de un otero o elevación donde se asienta un edificio (iglesia).</em><br />
+
+		<strong>Cina*:</strong> Hacina. De haz.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Conjunto de haces colocados apretada y ordenadamente unos sobre otros.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Montón o rimero.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Montón de haces o alpacas colocados apretados y ordenadamente.</em><br />
+
+		<strong>Cirato*:</strong> Cirate. Del ár. as-sirat, acirate, el camino.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Loma que se hace en las heredades y sirve de lindero.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Caballón que se levanta con la azada.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Senda que separa dos hileras de árboles en un paseo.<br />
+
+		<strong>Cisco:</strong> De or. inc., cf. lat. ciccum, cosa insignificante.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Carbón vegetal menudo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Bullicio, reyerta, alboroto.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hacer cisco.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Hacer trizas.<br />
+
+		<strong>Cisquiado*:</strong> De ciscar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. Ensuciar alguna cosa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. prnl. Soltarse o evacuarse el vientre.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Estar cagado de miedo.</em><br />
+
+		<strong>Clueca:</strong> De clocar.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Aplícase a la gallina y otras aves cuando se echan sobre los huevos para empollarlos. </em>Ú. t. c. s.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Se dice de la persona muy débil y casi impedida por la vejez.<br />
+
+		<strong>Cochiquera:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Cochitril, pocilga.</em><br />
+
+		<strong>Cocote:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Cogote.</em><br />
+
+		<strong>Cojitranco/a:</strong> De cojo y tranco.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. despect. cojo. Dícese del <em>que cojea de forma llamativa,</em> dando pasos largos o trancos. Ú. t. c. s.<br />
+
+		<strong>Collera:</strong> De cuello.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f.<em> Collar de cuero o lona, relleno de borra o paja, que se pone al cuello a las caballerías o a los bueyes para que no les haga daño el horcate.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. coche de colleras.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Adorno del cuello del caballo, que se usaba en funciones públicas.<br />
+
+		<strong>Collerón:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. aum. de collera1.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Collera de lujo, fuerte y ligera,</em> que se usa para los caballos de los coches.<br />
+
+		<strong>Comunero/a:</strong> De común.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Popular, agradable para con todos. Socio de la peña Los Comuneros.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Perteneciente o relativo a las comunidades de Castilla.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. El que seguía osa. el partido de las comunidades de Castilla.<br />
+
+		<strong>Confite:</strong> Del cat. confit.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pasta hecha de azúcar y algún otro ingrediente, ordinariamente en forma de bolillas de varios tamaños.</em> Ú. m. en pl.<br />
+
+		<strong>Cornezuelo:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. M. d. de cuerno.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cornatillo.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Hongo pequeño que vive parásito en los ovarios de las flores del centeno y los destruye, cuyo micelio se transforma después en un cuerpo alargado y algo encorvado, a manera de cuerno, que cae al suelo en otoño y germina en la primavera siguiente, diseminándose entonces las esporas que en él se han formado.</em> Se usa como medicamento.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Instrumento hecho con una punta de cuerno de ciervo, y usado por los albéitares para separar los vasos y tejidos en las operaciones quirúrgicas.<br />
+
+		<strong>Coro**:</strong> Del lat. chorus, y este del gr. corÕj.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Conjunto de personas reunidas para cantar, regocijarse, alabar o celebrar alguna cosa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Parte del fondo de la iglesia elevada de la planta reservada al coro de canto o a los mozos. En la actualidad sube cualquiera al coro.</em><br />
+
+		<strong>Cortapichas*:</strong> Cortapicos, de cortar y pico.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Insecto ortóptero de dos centímetros de largo aproximadamente, cuerpo estrecho, de color negro, cabeza rojiza, antenas filiformes, élitros cortos, y a veces sin alas ni élitros, y abdomen terminado por dos piezas córneas, móviles, que forman una especie de alicates. Es muy dañoso para las plantas. Todas sus especies son fitófagas.</em><br />
+
+		<strong>Corte:</strong> Del lat. cors, cortis o cohors, cohortis, cohorte.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Población donde habitualmente reside el soberano en las monarquías.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Conjunto de todas las personas que componen la familia y comitiva del rey.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Por ext., séquito, comitiva o acompañamiento.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Conjunto de personas que concurrían a los besamanos de palacio los días de gala.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Con el calificativo celestial u otras palabras de análoga significación, cielo, mansión divina.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Chancillería o sus estrados.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. <em>Corral. Pocilga.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Establo donde se recoge de noche el ganado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. Aprisco donde se encierran las ovejas.<br />
+
+		<strong>Coscorrón:</strong> De cosque.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Golpe en la cabeza, que no saca sangre y duele.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Golpe dado en la cabeza con los nudillos de la mano cerrada.<br />
+
+		<strong>Cotarro:</strong> Despect. de coto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Recinto en que se daba albergue por la noche a pobres y vagabundos que no tenían posada.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Colectividad en estado de inquietud o agitación.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Ladera de un barranco. <em>Montículo.</em><br />
+
+		<strong>Cozuelo*:</strong> <em>Granos que permanecen con vaina después de trillar y beldar.</em><br />
+
+		<strong>Cuartillo:</strong> D. de cuarto.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Medida de capacidad para áridos, cuarta parte de un celemín, equivalente a 1.156 mililitros aproximadamente.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Medida de líquidos, cuarta parte </em>de una azumbre, equivalente a 504 mililitros.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cuarta parte de un real.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Moneda de vellón ligada con plata, que mandó labrar el rey Enrique IV de Castilla, y valía la cuarta parte de un real.<br />
+
+		<strong>Cubete*:</strong> Cuba, del lat. cupa.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Recipiente de madera, que sirve para contener agua, vino, aceite u otros líquidos. Se compone de duelas unidas y aseguradas con aros de hierro, madera, etc., y los extremos se cierran con tablas.</em> También se hace modernamente de chapa metálica.<br />
+
+		<strong>Cucharrena:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Seg. y Sor. Rasera, <em>paleta con agujeros.</em><br />
+
+		<strong>Cuchitril:</strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Habitación estrecha y desaseada.</em><br />
+
+		<strong>Culebrilla**:</strong> D. de culebra.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Enfermedad viral que se manifiesta por un exantema en el que las vesículas se disponen a lo largo de los nervios, por lo cual son muy dolorosas.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Dragontea.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cierta hendidura que queda en los cañones de los fusiles y otras armas de fuego cuando el hierro no está bien trabajado.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Relámpago.</em><br />
+
+		<strong>Cunacho:</strong> Del lat. canistrum, a través del ár. canach.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Burg.,Seg. y Sor. <em>Cesto, canasto.</em><br />
+
+		<strong>Curda:</strong> Del fr. dialect. Curda, calabaza.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. fam. <em>Borrachera, embriaguez.</em><br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. fam. Borracho, ebrio.<br />
+
+		<strong>Cusco**:</strong> De la voz cuz, con seseo y repetida, con que se llama al perro.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Amér. cuzco.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Persona hábil para la caza u otras artes.</em><br />
+
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,561 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Lista de socios 2009</span></h3>
+			<p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta es la lista de socios de la asociación "Peña Los Comuneros" 
+			de Valdevarnés del 2009. Hay 10 socios mas este año.
+			</p>
+			
+			
+			<table width="90%"  border="2px" bordercolor="#416D8E"  cellpadding="2px" cellspacing="0px"  style="margin-bottom:10px" align="center">
+  <tr>
+    <th scope="col">&nbsp;Num.Socio</th>
+    <th scope="col">&nbsp;Nombre</th>
+    <th scope="col">&nbsp;Num.Socio</th>
+    <th scope="col">&nbsp;Nombre</th>
+  </tr>
+  
+ <tr>
+  <td>1</td>
+  <td>Teófilo Águeda Martín</td>
+  <td >72</td>
+  <td >Alberto de la Hoz de la Hoz</td>
+ </tr>
+ <tr>
+  <td>2</td>
+  <td>Elena Águeda Yagüe</td>
+  <td>73</td>
+  <td>Alejandro de la Hoz Martinez</td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>Jacinto Águeda Yagüe</td>
+  <td>74</td>
+  <td>Sandra López Alonso</td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>Víctor Águeda Yagüe</td>
+  <td>75</td>
+  <td>Adrián López González</td>
+ </tr>
+ <tr>
+  <td>5</td>
+  <td>Mariano Ahijado Díaz</td>
+  <td>76</td>
+  <td>César López Montero</td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>José Alonso Acebes</td>
+  <td>77</td>
+  <td>Pablo López Montero</td>
+ </tr>
+ <tr>
+  <td>7</td>
+  <td>Alejandro Alonso Águeda</td>
+  <td>78</td>
+  <td>Alberto López Ramos</td>
+ </tr>
+ <tr>
+  <td>8</td>
+  <td>Julián Alonso Águeda</td>
+  <td>79</td>
+  <td>Eusebio López Ramos</td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Rosa Alonso Barbolla</td>
+  <td>80</td>
+  <td>Luis López Ramos</td>
+ </tr>
+ <tr>
+  <td>10</td>
+  <td>Alejandro Alonso Sanz</td>
+  <td>81</td>
+  <td>Jesús López Ramos</td>
+ </tr>
+ <tr>
+  <td>11</td>
+  <td>Miguel Ángel Alonso Sanz</td>
+  <td>82</td>
+  <td>Valentín López
+  Ramos</td>
+ </tr>
+ <tr>
+  <td>12</td>
+  <td>Miriam Alonso Sanz</td>
+  <td>83</td>
+  <td>Laura Madrigal Moraga</td>
+ </tr>
+ <tr>
+  <td>13</td>
+  <td>Francisco Alonso Yagüe</td>
+  <td>84</td>
+  <td>Raquel Madrigal Moraga</td>
+ </tr>
+ <tr>
+  <td>14</td>
+  <td>Juan Antonio Alonso Yagüe</td>
+  <td>85</td>
+  <td>Juan Luis Manguero Águeda</td>
+ </tr>
+ <tr>
+  <td>15</td>
+  <td>María Paz Alonso Yagüe</td>
+  <td>86</td>
+  <td>Verónica Marí Granda</td>
+ </tr>
+ <tr>
+  <td>16</td>
+  <td>Norberto Álvarez Lomas</td>
+  <td>87</td>
+  <td>Catalina Martín Granda</td>
+ </tr>
+ <tr>
+  <td>17</td>
+  <td>Antonio Álvaro Granda</td>
+  <td>88</td>
+  <td>Emilio Martín Granda</td>
+ </tr>
+ <tr>
+  <td>18</td>
+  <td>Ramón Álvaro Granda</td>
+  <td>89</td>
+  <td>José Manuel Martín Granda</td>
+ </tr>
+ <tr>
+  <td>19</td>
+  <td>Lorena Álvaro Maté</td>
+  <td>90</td>
+  <td>Núria Martín Granda</td>
+ </tr>
+ <tr>
+  <td>20</td>
+  <td>Alberto Armendáriz Alonso</td>
+  <td>91</td>
+  <td>Fidel Martín Ramos</td>
+ </tr>
+ <tr>
+  <td>21</td>
+  <td>Ana María Armendáriz Alonso</td>
+  <td>92</td>
+  <td>Ana Martínez Ojembarrena</td>
+ </tr>
+ <tr>
+  <td>22</td>
+  <td>Juan Ramón Armendáriz Alonso</td>
+  <td>93</td>
+  <td>Begoña Martínez Ojembarrena</td>
+ </tr>
+ <tr>
+  <td>23</td>
+  <td>Gema Armendáriz Martínez</td>
+  <td>94</td>
+  <td>Carlos Martínez Ojembarrena</td>
+ </tr>
+ <tr>
+  <td>24</td>
+  <td>Miriam Armendáriz Martínez</td>
+  <td>95</td>
+  <td>Cristina Martínez Melero</td>
+ </tr>
+ <tr>
+  <td>25</td>
+  <td>Alicia Arranz Asenjo</td>
+  <td>96</td>
+  <td>Fernando Martínez Melero</td>
+ </tr>
+ <tr>
+  <td>26</td>
+  <td>José María Asenjo Granda</td>
+  <td>97</td>
+  <td>Enrique Maté Granda</td>
+ </tr>
+ <tr>
+  <td>27</td>
+  <td>Mª Montserrat Asenjo Granda</td>
+  <td>98</td>
+  <td>Trinidad Maté Granda</td>
+ </tr>
+ <tr>
+  <td>28</td>
+  <td>Audelino Asenjo Mayor</td>
+  <td>99</td>
+  <td>Antonio Melero González</td>
+ </tr>
+ <tr>
+  <td>29</td>
+  <td>Jesús Asenjo Melero</td>
+  <td>100</td>
+  <td>Elisabeth Melero Sánchez</td>
+ </tr>
+ <tr>
+  <td>30</td>
+  <td>Santiago Asenjo Melero</td>
+  <td>101</td>
+  <td>Núria Melero Sánchez</td>
+ </tr>
+ <tr>
+  <td>31</td>
+  <td>Victoria Asenjo Melero</td>
+  <td>102</td>
+  <td>Verónica Melero Sánchez</td>
+ </tr>
+ <tr>
+  <td>32</td>
+  <td>César Baciero Lorenzo</td>
+  <td>103</td>
+  <td>Alexandra Millón Maté</td>
+ </tr>
+ <tr>
+  <td>33</td>
+  <td>Arancha Balmaseda Martín</td>
+  <td>104</td>
+  <td>Beatriz Millón Maté</td>
+ </tr>
+ <tr>
+  <td>34</td>
+  <td>Óscar Blanco Ramos</td>
+  <td>105</td>
+  <td>Mª José Nieto Martín</td>
+ </tr>
+ <tr>
+  <td>35</td>
+  <td>Eduardo Cabrera Vélez</td>
+  <td>106</td>
+  <td>Purificación Montero Besada</td>
+ </tr>
+ <tr>
+  <td>36</td>
+  <td>Roberto Cabrera Vélez</td>
+  <td>107</td>
+  <td>Mª Concepción Pérez García</td>
+ </tr>
+ <tr>
+  <td>37</td>
+  <td>Federico Calderón Foch</td>
+  <td>108</td>
+  <td>Gloria Fanny Puchaicela Quezada</td>
+ </tr>
+ <tr>
+  <td>38</td>
+  <td>Guillermo Calderón Asenjo</td>
+  <td>109</td>
+  <td>Alberto Puertas Martín</td>
+ </tr>
+ <tr>
+  <td>39</td>
+  <td>Eutiquio Cristobal Sanz</td>
+  <td>110</td>
+  <td>Javier Puertas Martín</td>
+ </tr>
+ <tr>
+  <td>40</td>
+  <td>Miguel de la
+  Calle Vázquez</td>
+  <td>111</td>
+  <td>María Paz Ramos González</td>
+ </tr>
+ <tr>
+  <td>41</td>
+  <td>Felisa de Lama Cano</td>
+  <td>112</td>
+  <td>Luisa Ramos Martín</td>
+ </tr>
+ <tr>
+  <td>42</td>
+  <td>Luis Miguel Durango Castro</td>
+  <td>113</td>
+  <td>Gerardo Rodriguez Granda</td>
+ </tr>
+ <tr>
+  <td>43</td>
+  <td>Yolanda Espinosa López</td>
+  <td>114</td>
+  <td>Ariana Salas Montero</td>
+ </tr>
+ <tr>
+  <td>44</td>
+  <td>Blas Esteban Bayo</td>
+  <td>115</td>
+  <td>Conchi Sánchez Núñez</td>
+ </tr>
+ <tr>
+  <td>45</td>
+  <td>Tamara Esteban López</td>
+  <td>116</td>
+  <td>Mª Carmen Sánchez Salido</td>
+ </tr>
+ <tr>
+  <td>46</td>
+  <td>Luis Fernández Rodriguez</td>
+  <td>117</td>
+  <td>Encarna Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>47</td>
+  <td>José María García Carbón</td>
+  <td>118</td>
+  <td>Hontanares Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>48</td>
+  <td>Maria Luisa García Hernández</td>
+  <td>119</td>
+  <td>Javier Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>49</td>
+  <td>Noelia García Moya</td>
+  <td>120</td>
+  <td>Juan Francisco Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>50</td>
+  <td>Mercedes García Maté</td>
+  <td>121</td>
+  <td>Juan José Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>51</td>
+  <td>Cristina González de Miguel</td>
+  <td>122</td>
+  <td>Patricia Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>52</td>
+  <td>Eloy González Esteban</td>
+  <td>123</td>
+  <td>Teresa Sanz Asenjo</td>
+ </tr>
+ <tr>
+  <td>53</td>
+  <td>Féliz Ángel González Esteban</td>
+  <td>124</td>
+  <td>Gema Pilar Sanz González</td>
+ </tr>
+ <tr>
+  <td>54</td>
+  <td>José Antonio González Esteban</td>
+  <td>125</td>
+  <td>José Luis Sanz Martín</td>
+ </tr>
+ <tr>
+  <td>55</td>
+  <td>Mª Concepción González García</td>
+  <td>126</td>
+  <td>Núria Sanz Salinero</td>
+ </tr>
+ <tr>
+  <td>56</td>
+  <td>Nachi González García</td>
+  <td>127</td>
+  <td>Montserrat Sanz Salinero</td>
+ </tr>
+ <tr>
+  <td>57</td>
+  <td>Soraya Gonzalez Lazo</td>
+  <td>128</td>
+  <td>Julián Sanz Sanz</td>
+ </tr>
+ <tr>
+  <td>58</td>
+  <td>Ismael Granda Arranz</td>
+  <td>129</td>
+  <td>Susana Segura Rico</td>
+ </tr>
+ <tr>
+  <td>59</td>
+  <td>Clemente Granda Escudero</td>
+  <td>130</td>
+  <td>Felipe Siguero Montes</td>
+ </tr>
+ <tr>
+  <td>60</td>
+  <td>Fernando Granda
+  Escudero</td>
+  <td>131</td>
+  <td>Ana Torres Miguel</td>
+ </tr>
+ <tr>
+  <td>61</td>
+  <td>Marisa Granda Escudero</td>
+  <td>132</td>
+  <td>Lucio Vela Gómez</td>
+ </tr>
+ <tr>
+  <td>62</td>
+  <td>Adrián Granda Ramírez</td>
+  <td>133</td>
+  <td>Julia Vela Humanes</td>
+ </tr>
+ <tr>
+  <td>63</td>
+  <td>Alejandro Granda Ramírez</td>
+  <td>134</td>
+  <td>Gema Vela Humanes</td>
+ </tr>
+ <tr>
+  <td>64</td>
+  <td>Clemente Granda Sanz</td>
+  <td>135</td>
+  <td>Elisa Vela Humanes</td>
+ </tr>
+ <tr>
+  <td>65</td>
+  <td>Augurio Granda Sanz</td>
+  <td>136</td>
+  <td>Asunción Velasco Díez</td>
+ </tr>
+ <tr>
+  <td>66</td>
+  <td>Amando Granda Tomé</td>
+  <td>137</td>
+  <td>Iñaki Vélez Pereda</td>
+ </tr>
+ <tr>
+  <td>67</td>
+  <td>Amparo Granda Tomé</td>
+  <td>138</td>
+  <td>Victoriano Yagüe Alonso</td>
+ </tr>
+ <tr>
+  <td>68</td>
+  <td>José Antonio Granda Tomé</td>
+  <td>139</td>
+  <td>Eva Yagüe Álvaro</td>
+ </tr>
+ <tr>
+  <td>69</td>
+  <td>Mercedes Granda Tomé</td>
+  <td>140</td>
+  <td>Víctor Manuel Yagüe Álvaro</td>
+ </tr>
+ <tr>
+  <td>70</td>
+  <td>Paloma Hernández Granda</td>
+  <td>141</td>
+  <td>Alfredo Yagüe Martín</td>
+ </tr>
+ <tr>
+  <td>71</td>
+  <td>Blanca Hernando González</td>
+  <td>142</td>
+  <td>Javier Yagüe Martín</td>
+ </tr>
+ 
+</table>
+ 
+
+
+			
+		</div>		
+
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

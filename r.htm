@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">										
+				
+				<strong>Rabadilla:</strong> D. de rabada.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Punta o extremidad del espinazo,</em> formada por la última pieza del hueso sacro y por todas las del cóccix.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. En las aves, extremidad movible en donde están las plumas de la cola.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Parte de la carne de vacuno correspondiente a la región de las ancas entre la tapa y el lomo.<br />
+
+				<strong>Ramal:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Cada uno de los cabos de que se componen las cuerdas, sogas, pleitas y trenzas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Ronzal asido al cabezón de una bestia.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cada uno de los diversos tiros que concurren en la misma meseta de una escalera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Parte que arranca de la línea principal de un camino, acequia, mina, cordillera, etc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. Parte o división que resulta o nace de una cosa con relación y dependencia de ella, como rama suya.<br />
+
+				<strong>Ramplón** :</strong> De etim. disc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Aplícase al calzado tosco y de suela muy gruesa y ancha.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Vulgar, chabacano.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. m. Especie de taconcillo que se forma en la cara inferior de las herraduras a la punta de los callos, para suplir en las caballerías algunos defectos de los cascos o huellos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Piececita de hierro en forma piramidal, que se pone en la lumbre y en los callos de las herraduras para que, penetrando el hielo, puedan las caballerías caminar por él sin resbalarse.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Justo y medido tan en exceso, que casi se queda escaso.</em><br />
+
+				<strong>Rampujo*:</strong> Rampojo, raspajo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D. de raspa, gajo de uvas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Escobajo de uvas.</em><br />
+
+				<strong>Rasero:</strong> Del lat. rasorium.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Palo cilíndrico <em>que sirve para rasar las medidas </em>de los áridos; a veces tiene forma de rasqueta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por el mismo, o por un, rasero.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. fig. Con rigurosa igualdad, sin la menor diferencia. Ú. comúnmente con los verbos medir y llevar.<br />
+
+				<strong>Rastra:</strong> De rastro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. rastro de recoger hierba, paja, broza, etc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. rastro, vestigio, señal o indicio que deja una cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. narria, cajón de carro para llevar arrastrando cosas de gran peso.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. grada, para allanar la tierra después de arada.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. <em>Tabla que, arrastrada por una caballería, sirve para recoger la parva de la era.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Cualquier cosa que va colgando y arrastrando.<br />
+
+				<strong>Rastro:</strong> Del lat. rastrum.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Instrumento compuesto de un mango largo y delgado cruzado en uno de sus extremos por un travesaño armado de púas a manera de dientes, y que sirve para recoger hierba, paja, broza, etc.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Herramienta a manera de azada, que en vez de pala tiene dientes fuertes y gruesos, y sirve para extender piedra partida y para usos análogos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Vestigio, señal o indicio de un acontecimiento.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Mugrón de la vid.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Señal, huella que queda de una cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. En Madrid, mercado callejero donde suelen venderse todo tipo de objetos viejos o nuevos.<br />
+
+				<strong>Rastrojo:</strong> De restojo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Residuo de las cañas de la mies, que queda en la tierra después de segar.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. El campo después de segada la mies y antes de recibir nueva labor.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. pl. Residuos que quedan de una cosa.<br />
+
+				<strong>Rebarco*:</strong> <em>Terreno bajo entre dos lomas.</em><br />
+
+				<strong>Rebeca:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Chaquetilla femenina de punto,</em> sin cuello, abrochada por delante, y cuyo primer botón está, por lo general, a la altura de la garganta.<br />
+
+				<strong>Rebolada*:</strong> <em>Aspecto rojizo que presenta el cielo al amanecer o al atardecer.</em><br />
+
+				<strong>Rebusca:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Acción y efecto de rebuscar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Fruto que queda en los campos después de alzada la cosecha, y particularmente el de las viñas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Desecho, lo de peor calidad.<br />
+
+				<strong>Rechinar:</strong> De re- y china.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Hacer o causar una cosa un sonido, comúnmente desapacible, por rozar con otra.</em> Ú. m. en la fr. RECHINAR los dientes.<br />
+
+				<strong>Reclinatorio:</strong> Del lat. reclinatorium.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Cualquier cosa acomodada y dispuesta para reclinarse.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Mueble acomodado para arrodillarse y orar.</em><br />
+
+				<strong>Recochineo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Burla o ironía molestas que acompañan a algo que se hace o dice.</em><br />
+
+				<strong>Recular:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Cejar o retroceder.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam.<em> Ceder uno de su dictamen u opinión.</em><br />
+
+				<strong>Refajo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Falda corta y vueluda, por lo general de bayeta o paño, que usan las mujeres de los pueblos encima de las enaguas. En las ciudades era falda interior que usaba la mujer para abrigo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Zagalejo interior de bayeta u otra tela tupida, que usan las mujeres para abrigo.<br />
+
+				<strong>Refilón (de):</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. Oblicuamente, de soslayo, al sesgo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. <em>De paso, de pasada.</em><br />
+
+				<strong>Refresco:</strong> De refrescar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Alimento moderado o reparo que se toma para fortalecerse y continuar en el trabajo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Agasajo de bebidas, dulces, etc., que se da en las visitas u otras concurrencias.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Ir al refresco.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Merienda comunal después de un acto colectivo, regueras, charla u acontecimiento social.</em><br />
+
+				<strong>Refunfuñar:</strong> Voz onomatopéyica.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Emitir voces confusas o palabras mal articuladas o entre dientes, en señal de enojo o desagrado.</em><br />
+
+				<strong>Regueras*:</strong> <em>Trabajo en común de los vecinos para reparar desperfectos de cosas o zonas comunes del pueblo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Deriva de las labores de limpieza de regueros, pozas, pozos y fuentes comunes.</em><br />
+
+				<strong>Reguero:</strong> De regar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Corriente, a modo de chorro o de arroyo pequeño, que se hace de una cosa líquida.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Línea o señal continuada que queda de una cosa que se va vertiendo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Reguera.<br />
+
+				<strong>Reguilar**:</strong> De rehilar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Moverse una persona o cosa como temblando, rehilar, rilar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Podar, limpiar los árboles de ramas sobrantes.</em><br />
+
+				<strong>Relente:</strong> Del fr. relent, de reler, del lat. regelare, helar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Humedad que en noches serenas se nota en la atmósfera.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Sorna, frescura.<br />
+
+				<strong>Relocho:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Adj. Burg. <em>Aturdido, atolondrado.</em><br />
+
+				<strong>Remilgo:</strong> De re- y el b. lat. mellicus, y este del lat. mellitus, meloso.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pulidez o delicadeza exagerada o afectada, mostrada con gestos expresivos. Ú. m. en pl.</em><br />
+
+				<strong>Resabiado:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. p. de resabiar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj. <em>Que tiene un vicio o mala costumbre difícil de quitar. Aplícase especialmente a los caballos y a las reses de lidia</em>.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Dícese de la <em>persona que</em>, por su experiencia vital, <em>ha perdido su ingenuidad volviéndose agresiva o desconfiada.</em><br />
+
+				<strong>Respingo:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Acción de respingar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Sacudida violenta del cuerpo, causada por un sobresalto, sorpresa, etc.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Expresión y movimiento de despego y enfado con que uno muestra vivamente la repugnancia que tiene en ejecutar lo que se le manda.<br />
+
+				<strong>Resuello:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Aliento o respiración, especialmente la violenta.</em><br />
+
+				<strong>Retahíla:</strong> De recta e hila.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Serie de muchas cosas que están, suceden o se mencionan por su orden.<br />
+	
+				<strong>Retranca**:</strong> De retro- y anca.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Correa ancha, a manera de ataharre, que forma parte del atalaje y coopera a frenar el vehículo, y aun a hacerlo retroceder.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cineg. En la batida, línea de puestos situada a espaldas de los que baten.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. And. Palo largo atado por los extremos a la caja del carro, que sirve de freno al oprimir el cubo; galga.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Aparejo que se pone al macho de varas para que no se vaya el carro hacia atrás.</em><br />
+
+				<strong>Rezumar:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Dicho de un cuerpo, dejar pasar a través de sus poros o intersticios gotitas de algún líquido.</em> La pared REZUMA<br />
+ 					humedad. Ú. t. c. prnl. El cántaro SE REZUMA.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. intr. Dicho de un líquido, salir al exterior en gotas a través de los poros o intersticios de un cuerpo. El sudor le REZUMABA por la frente. Ú. t. c. prnl. El agua SE REZUMA por la cañería.<br />
+
+				<strong>Ripia**:</strong> Del lat. replere, rellenar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Tabla delgada, desigual y sin pulir.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Costero tosco del madero aserrado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. ant. Ripio.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Objeto de cualquier cosa que se usa a modo de peonza.</em><br />
+
+				<strong>Richa* :</strong> <em>Forma o modo de sonido onomatopéyico para llamar a las ovejas.  </em><br />
+
+				<strong>Rodancha:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Ar., Murc. y Sor. <em>Roncha, rodaja.</em><br />
+
+				<strong>Rodilla:</strong> Del lat. rotella, d. de rota, rueda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Conjunto de partes blandas y duras que forman la unión del muslo con la pierna, y, particularmente, región prominente de dicho conjunto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. En los cuadrúpedos, unión del antebrazo con la caña.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. rodete para llevar pesos en la cabeza.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <em>Paño basto u ordinario, regularmente de lienzo, que sirve para limpiar, especialmente en la cocina.</em><br />
+
+				<strong>Romana:</strong> Del lat. [statera] romana.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Instrumento que sirve para pesar, compuesto de una palanca de brazos muy desiguales, con el fiel sobre el punto de apoyo. El cuerpo que se ha de pesar se coloca en el extremo del brazo menor, y se equilibra con un pilón o peso constante que se hace correr sobre el brazo mayor, donde se halla trazada la escala de los pesos.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. fiel de romana.<br />
+
+				<strong>Roncha:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Bultillo que se eleva en figura de haba en el cuerpo del animal.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cardenal.<br />
+
+				<strong>Ronchar:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr.<em> Hacer ruido uno al comer un alimento quebradizo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. intr. <em>Crujir un alimento cuando se masca, </em>por estar falto de sazón. RONCHAR las patatas por estar mal cocidas.<br />
+
+				<strong>Ronchón:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Bultillo que se forma en el cuerpo del animal.</em><br />
+
+				<strong>Roña:</strong> Del lat. aerugo, -inis, orín, roña.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Sarna del ganado lanar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Porquería y suciedad pegada fuertemente.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Orín de los metales.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Corteza del pino.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. Daño moral que se comunica o puede comunicarse de unos en otros.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. fig. y fam. Mezquindad, roñería.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. com. fig. y fam. Persona roñosa, tacaña.<br />
+
+				<strong>Rozón**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Especie de guadaña tosca, corta, gruesa y ancha, que sujeta a un mango largo, sirve para rozar árgoma, zarzas, etc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Herida superficial de la piel, en que hay desprendimiento de la epidermis y de alguna porción de la dermis.</em><br />
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

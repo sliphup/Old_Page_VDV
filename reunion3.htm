@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px">
+					<a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a>
+			</span>
+			<span style="float:right">
+				<a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a>
+			</span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+				<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right">
+				<a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Acta 30 Octubre 2010</span></h3>
+			
+			<p class="p1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Se muestra a continuación un resumen del acta de la asamblea
+				 general de la Asociación cultural "Peña los Comuneros" de 2010.			  
+			</p>		
+			<table width="90%"  border="2px" bordercolor="#416D8E"  cellpadding="10px" cellspacing="0px" style="margin-bottom:10px" align="center">  
+  		<tr>
+    		<td><strong>FECHA</strong></td>
+    		<td colspan="3"><strong>30 de Octubre de 2010 a 18:30h.</strong></td>    		
+  		</tr>
+  		<tr>
+    		<td><strong>PRESIDIDA</strong></td>
+    		<td>D. Amando Granda Tomé</td>  
+    		<td><strong>SECRETARIO</strong></td>
+    		<td>D. Jesús López Ramos</td>  		
+  		</tr>
+  		<tr>
+    		<td><strong>ASISTENTES</strong></td>
+    		<td colspan="3">42 socios y hacen delegación de su voto 11 socios.</td>    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p align="center"><strong>ORDEN DEL DÍA</strong></p></td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 1.- Lectura y aprobación, si procede, del acta de la asamblea anterior</strong><br />
+    		Una vez leída por el secretario es aprobada por unanimidad de los asistentes.
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		<tr>
+    		<td colspan="4"><p><strong> 2.- Informe del secretario sobre la relación actual de socios</strong><br />
+    		El secretario informa que actualmente existen 142 socios. Se abonaron 116 cuotas durante las fiestas de Septiembre, de las cuales dos correspondían 
+		al ejercicio 2.009. De las cuotas pendientes de abonar existe una correspondiente al ejercicio 2009 (Miriam Pellitero Pérez) que al no haber hecho 
+		tampoco el abono correspondiente al ejercicio 2010 en este momento causa baja en la Asociación. Después de las fiestas, pero durante el actual 
+		ejercicio económico se abonan 2 cuotas y ya cerrado el ejercicio son abonadas cinco cuotas. <br />
+		Además, hay que contabilizar otras cinco cuotas que se han abonado a través de Internet. Se contabilizan como nuevos socios durante este año los 
+		siguientes: <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.Laura Madrigal Moraga<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.Raquel Madrigal Moraga<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.Alberto de la Hoz de la Hoz<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.Alejandro de la Hoz Martinez<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.Paloma Hernández Granda<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.Ariana Salas Montero<br />
+	
+		Se hace constar que dos antiguos socios (Iñaki Velez Pereda y Purificación Montero Besada) abonaron la cuota después de la asamblea correspondiente 
+		al año 2009. Por tanto, desde ese año son readmitidos como socios.
+
+    		</p>
+    		</td>    		    		
+  		</tr>
+		<tr>
+    		<td colspan="4"><p><strong> 3.- Informe económico por parte del tesorero</strong><br />
+    		El tesorero, Emilio Martín, reparte a los asistentes copias del informe económico. Al no reflejarse con exactitud el saldo de partida, en torno 
+		12.000€, no se dan mas detalles de este aspecto. Si queda constancia efectiva del saldo final, que asciende a 12.135,26 €, quedando distribuido del 
+		siguiente modo:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- En caja Segovia	8.800,82€<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- En caja Madrid	1.040,77€<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- En metálico		2.293,67€<br />
+
+		Queda pendiente de ingresar aún la asignación que el Ayuntamiento realiza a la asociación para sufragar los gastos de la fiesta de Septiembre. 
+		Durante la presentación de las cuentas también interviene el Presidente que ha colaborado estrechamente con el tesorero en la gestión económica. 
+		Las cuentas son aprobadas por unanimidad.
+
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 4.- Memoria de actividades </strong><br />
+    		El Presidente da lectura a un informe sobre las principales actividades:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Venta de lotería de Navidad.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Envío a los socios de Felicitación de Navidad con envío de calendarios.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fiestas de la peña.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Entrega de llavero y diploma a socios que cumplen 25 años como asociados.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Disposición de camarera para atender la barra durante un periodo del verano.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Renovación del mobiliario de la barra del bar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Organización de las fiestas patronales de Septiembre.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Entrega del premio 2010 al embellecimiento del pueblo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Celebración de la Asamblea Anual y cena de socios y simpatizantes.<br />
+		A continuación el Presidente realiza una profunda reflexión sobre la gestión y funcionamiento de la Peña, así como animar a todos a aportar ideas y 
+		trabajo en pro de nuestra Asociación y del pueblo.</p>
+    		</td>    		    		
+  		</tr>
+		<tr>
+    		<td colspan="4"><p><strong> 5.-Informe de lotería por parte del vocal José Antonio Granda </strong><br />
+    		Expone la cuenta de resultados del año 2009. Ha supuesto unos gastos de 16.980€ y unos ingresos de 19.180€. Por tanto el beneficio neto para la Peña 
+		ha sido de 2.200€.</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 6.- Propuesta de actividades para el próximo ejercicio   </strong><br />
+    		La organización, tras un amplio debate, de la Fiesta de Abril obedecerá al siguiente programa:<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Sábado 30 de abril:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tarde: actuación coral.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Noche: actuación de orquesta, cena en la plaza de la ermita con parrillada y velada con orquesta.<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Domingo 1 de mayo:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Misa sobre las 12:30.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vermouth en la plaza.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comida comunitaria<br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lunes 2 de mayo<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recogida general.<br />
+		Se plantean estas otras actividades:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Por parte de Monserrat Asenjo que se realice una exposición de fotos de las Fiestas en la ermita.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Por parte de Clemente Granda Escudero, que se realice una recopilación de fotos antiguas.<br />
+
+
+    		</p>
+    		</td>    		    		
+  		</tr>
+  			<tr>
+    		<td colspan="4"><p><strong> 7.- Consideración de la antigüedad de socios que causan baja y posteriormente se dan de alta  </strong><br />
+    		Tanto por acuerdo de Asamblea General, como consta en los estatutos causa baja todo aquel socio que deja de pagar la cuota dos años seguidos. 
+		No obstante, en este momento, y por el poder decisorio que posee la Asamblea General se toma el siguiente acuerdo: “Todo aquel socio que cause baja y 
+		que posteriormente de nuevo se dé de alta, se le podrá respetar la antigüedad acumulada sin contar los años que estuvo de baja. Para ello será preciso 
+		que el socio interesado lo manifieste por escrito al Presidente”.
+     		</p>    		
+    		</td>    		    		
+  		</tr>
+		<tr>
+    		<td colspan="4"><p><strong> 8.- Elección de miembros de la Junta Directiva  </strong><br />
+    		Son aceptados por unanimidad de los asistentes los siguientes cargos:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Presidente: Miriam Alonso Sanz<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Secretaria: Ana Torres Miguel<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Tesorera: Mª Concepción Pérez García<br />
+
+		Además, funcionarán las siguientes comisiones:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fiestas de abril: Eva, Nuria, Hontanares y Miriam.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Música: Juan Ramón, Juanjo y Luismi.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Dulzainas: Alfredo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Montaje de chiringuitos: Adrián, Pablo y Santi.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Fiesta de la cerveza: Federico, Iñaki y Nuria Melero.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Actividades culturales: Viky y Núria Melero.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Loteria: Fede, José Antonio y Alejandro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Bar: Enrique y Audelino.<br />
+
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		<tr>
+    		<td colspan="4"><p><strong> 9.- Ruegos y preguntas  </strong><br />
+    		Se formulan las siguientes:<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-1.	Emilio, en nombre de la Peña, propone que a Clemente Granda y a su mujer se les invite a cenar al haber celebrado recientemente las bodas de oro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2.	Pablo, propone arreglar el equipo de música o comprar otro nuevo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-3.	Antonio, propone que en invierno se separe los dos espacios de la planta baja del edificio.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-4.	Nuria,  propone que se compre leña y se limpie de enseres inservibles el almacén.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-5.	Nuria, propone que se cuente con una charanga para las fiestas.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-6.	Alejandro Granda, propone que se trate de conciliar mas los intereses de los jóvenes y mayores en el uso del local.<br />
+    		</p>
+    		</td>    		    		
+  		</tr>
+  		
+  		</table>			
+			
+		</div>
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+
+</body>
+</html>

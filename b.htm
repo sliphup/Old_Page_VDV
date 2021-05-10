@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+
+			<p class="p1">
+				
+				<strong>Badana:</strong> Del ár. bitana, forro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Piel curtida de carnero u oveja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Tira de este cuero o de otro material, que se cose al borde interior de la copa del sombrero para evitar que se manche con el sudor. Zurrarle a alguien la badana.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Darle de golpes.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Maltratarle de palabra.<br />
+				
+				<strong>Badanas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Persona floja y perezosa. Ú. m. en pl. Tu yerno es un BADANAS.<br /></em>
+				
+				<strong>Badil:</strong> Del lat. batillum.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Paleta de hierro o de otro metal, para mover y recoger la lumbre en las chimeneas y braseros.<br /></em>
+				
+				<strong>Balaguero:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Montón grande de bálago, que se hace en la era cuando se limpia el grano.<br /></em>
+				
+				<strong>Balancín:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. M. d. de balanza de pesar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Madero que se atraviesa paralelamente al eje de las ruedas delanteras de un carruaje, fijándolo en su promedio a la tijera, y por los extremos a los del eje mismo, con dos hierros que se llaman guardapolvos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Madero que se cuelga de la vara de guardia, y a cuyas extremidades se enganchan los tirantes de las caballerías.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; grande.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Balancín, madero paralelo al eje delantero de las ruedas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pequeño.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Balancín, madero al que se enganchan los tirantes de las caballerías.<br />
+				
+				<strong>Baldado:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. P. p. de baldar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj. <em>Cansado, fatigado.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. De balde.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ant. Dado de balde.<br />
+				
+				<strong>Balde:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Cubo que se emplea para sacar y transportar agua, sobre todo en las embarcaciones.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Por ext., cualquier recipiente de forma y tamaño parecidos a los del cubo, destinado a diversos usos.<br />
+				
+				<strong>Baldío:</strong> De balda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Aplícase a la tierra que ni se labra ni está adehesada. Dícese en algunas partes, en especial de los terrenos comunales. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Dícese del terreno de particulares que huelga, que no se labra.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Vano, sin motivo ni fundamento.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Vagabundo, perdido, sin ocupación ni oficio.<br />
+				
+				<strong>Barbecho:</strong> Del lat. vervactum, de vervagere, arar la tierra en la primavera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Tierra labrantía que no se siembra durante uno o más años.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Acción de barbechar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Haza arada para sembrar después.<br />
+				
+				<strong>Bardera*:</strong> De barda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Lugar donde se hacina la leña.  <br /></em>
+				
+				<strong>Barriguera:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Correa que se pone en la barriga a las caballerías de tiro.<br /></em>
+				
+				<strong>Barruntar:</strong> Quizá del lat. promptare, descubrir.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Prever, conjeturar o presentir por alguna señal o indicio.<br /></em>
+				
+				<strong>Batiburrillo:</strong> Baturrillo.De batir, mezclar, revolver.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Mezcla de cosas que no dicen bien unas con otras. Úsase más tratándose de guisados.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. En la conversación y en los escritos, mezcla de cosas inconexas y que no vienen a propósito.<br />
+				
+				<strong>Bazuquear:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Bazucar.<br /> 
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. p. us. Menear o revolver una cosa líquida moviendo la vasija en que está.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. p. us. <em>Traquetear, mover o agitar líquidos y otras cosas.<br /></em>
+				
+				<strong>Beldadora*:</strong> <em>Máquina de beldar.</em><br />
+				
+				<strong>Beldar:</strong> Del lat. ventilare.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Aventar con el bieldo las mieses, legumbres, etc., trilladas, para separar del grano la paja.<br /></em>
+				
+				<strong>Berrear:</strong> Voz onomatopéyica.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Dar berridos los becerros u otros animales.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Llorar o gritar desaforadamente un niño.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. <em>Gritar o cantar desentonadamente las personas.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. Germ. Descubrir, declarar o confesar alguna cosa.<br />
+				
+				<strong>Berrionda*:</strong> Cerda en celo.<br />
+				
+				<strong>Berzas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. com. fig.<em> berzotas, persona ignorante o necia.<br /></em>
+				
+				<strong>Bielda:</strong> De beldar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Instrumento agrícola que solo se diferencia del bieldo en tener seis o siete puntas y dos palos atravesados, que con las puntas o dientes forman como una rejilla, y el cual sirve para recoger, cargar y encerrar la paja.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Acción de beldar.<br />
+				
+				<strong>Binar:</strong> Del lat. binus, de dos en dos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Dar segunda reja a las tierras de labor.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Hacer la segunda cava en las viñas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. intr. Celebrar un sacerdote dos misas en un mismo día.<br />
+				
+				<strong>Birria:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Zaharrón, moharracho.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Mamarracho, facha, adefesio.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig.<em> Persona o cosa de poco valor o importancia.<br /></em>
+				
+				<strong>Bizmar**:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Poner bizmas. Ú. t. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Emplasto para confortar, compuesto de estopa, aguardiente, incienso, mirra y otros ingredientes.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Pedazo de baldés o lienzo cubierto de emplasto y cortado en forma adecuada a la parte del cuerpo a que ha de aplicarse.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Modo y uso para curar las fracturas de los animales.<br /></em>
+				
+				<strong>Boche:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Buche, <em>borrico.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Quizá de bache.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Hoyo pequeño y redondo que hacen los muchachos en el suelo para jugar, tirando a meter dentro de él las piezas con que juegan.<br /></em>
+				
+				<strong>Bocín**:</strong> Del lat. buxis, pyxis, caja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Pieza redonda de esparto o de hierro, que se pone por defensa alrededor de los cubos de las ruedas de carros y galeras.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. En los molinos de cubo, agujero estrecho por donde cae el agua al rodezno.<br />
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Salida de humos normalmente redonda y prefabricada en chapa u otro material.<br /></em>
+				
+				<strong>Bofe:</strong> Voz onomatopéyica.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pulmón de las reses que se destina a consumo. Ú. m. en pl.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Echar el bofe, o los bofes.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Afanarse, trabajar excesivamente.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Echar el bofe, o los bofes, por una cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>El pulmón de la asadura.<br /></em>
+				
+				<strong>Boquinegra:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Aplícase a los animales que tienen la boca u hocico negro, siendo de otro color lo restante de la cabeza o de la cara.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. m. Caracol terrestre muy común en varias regiones de España, redondo, chato, de unos tres centímetros de diámetro, liso, lustroso, de color amarillo con zonas rojizas y puntos blancos, y negra la boca o abertura.<br />
+				
+				<strong>Borra:</strong> Del lat. burra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f.<em> Cordera de un año.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Parte más grosera o corta de la lana.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Pelo de cabra de que se rellenan las pelotas, cojines y otras cosas.<br />
+				
+				<strong>Borrajetos*:</strong><br /> Borrajear. De borrar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Escribir sin asunto determinado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Hacer rúbricas, rasgos o figuras por mero entretenimiento o por ejercitar la pluma.<br /></em>
+				
+				<strong>Borrego/a:</strong> De borra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f. Cordero o cordera de uno a dos años.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Persona sencilla o ignorante. Ú. t. c. adj.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Persona que se somete gregaria o dócilmente a la voluntad ajena.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. m. fig. Nubecilla blanca, redondeada.<br />
+				
+				<strong>Botija:</strong> Del lat. butticula.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f.<em> Vasija de barro mediana, redonda y de cuello corto y angosto.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estar hecho una botija.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fig. y fam. Dícese también del que está demasiado gordo.<br />
+				
+				<strong>Bozal:</strong> De bozo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Dícese del negro recién sacado de su país. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Bisoño, inexperto en algún arte u oficio. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Simple, necio o idiota. Ú. t. c. s.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Tratándose de caballerías, cerril, no domado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. m.<em> Esportilla, comúnmente de esparto, la cual, colgada de la cabeza, se pone en la boca a las bestias de labor y de carga, para que no hagan daño a los panes o se paren a comer.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Aparato, comúnmente de correas o alambres, que se pone en la boca a los perros para que no muerdan.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Tableta con púas de hierro, que se pone a los terneros para que las madres no les dejen mamar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Adorno con campanillas o cascabeles, que se pone a los caballos en el bozo.<br />
+				
+				<strong>Bridón**:</strong> De brida.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. El que va montado a la brida.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Brida pequeña que se pone a los caballos por si falta la grande.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Varilla de hierro, compuesta regularmente de tres pedazos, enganchando uno en otro, que se pone a los caballos debajo del bocado. Tiene cabezada diversa de la del freno, y las riendas van unidas a él.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cabezada grande con adornos y anteojeras.<br /></em>
+				
+				<strong>Broza:</strong> De or. inc.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Conjunto de hojas, ramas, cortezas y otros despojos de las plantas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Desecho o desperdicio de alguna cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Maleza o espesura de arbustos y plantas en los montes y campos.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. <em>Cosas inútiles que se dicen de palabra o por escrito.<br /></em>
+				
+				<strong>Buellao ó güellao*: </strong><em>Voz que se emplea para guiar a los machos o caballerías a la derecha.<br /></em>
+				
+				<strong>Buesque ó güesque*: </strong><em>Voz que se emplea para guiar a los machos o caballerías a la izquierda.<br /></em>
+				
+				<strong>Bufar: </strong>Voz onomatopéyica.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. <em>Resoplar con ira y furor el toro, el caballo y otros animales.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ant. Soplar, despedir aire por la boca. Ú. en Murcia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Manifestar alguien su ira o enojo extremo de algún modo.<br /></em>
+				
+				<strong>Buje:</strong> Del lat. buxis, caja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pieza cilíndrica de hierro o de cobre que guarnece interiormente el cubo de las ruedas de los carruajes, para disminuir el rozamiento con los ejes.<br /></em>
+				
+				<strong>Bulón:</strong> Del fr. boulon.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;v1. m. Argent.<em> Tornillo grande de cabeza redondeada.<br /></em>
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

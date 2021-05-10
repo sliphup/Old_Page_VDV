@@ -1,0 +1,384 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>	
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">
+				<strong>Aballico*:</strong> <em>Mala hierba, que invade los sembrados, especie de trigo silvestre, difícil de erradicar. </em><br />				 
+				<strong>Abarrancar:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Formar barrancos en un terreno por la erosión o la acción de los elementos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Meterse en un barranco. Ú. t. c. prnl.<br /></em>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Intr. Varar, encallar la embarcación. Ú. t. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. fig. Meterse en negocio o lance de que no se puede salir fácilmente.<br />
+				<strong>Abejorro:</strong> De abeja. <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.<em> m. Insecto himenóptero, de dos a tres centímetros de largo, velludo y con la trompa casi del mismo tamaño que el cuerpo. Vive en enjambres poco numerosos, hace el nido debajo del musgo o de piedras y zumba mucho al volar.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Persona de conversación pesada y molesta.<br />
+				<strong>Abocicar*:</strong> <em>Caer de bruces una persona o animal.</em><br />
+				<strong>Abotargarse:</strong> Quizá de una raíz romance bott-, de carácter expresivo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <em>prnl. Hincharse, inflarse el cuerpo o parte del cuerpo de un animal, o el de una persona, generalmente por enfermedad.</em><br />
+				<strong>Acarrear:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <em>tr. Transportar en carro los haces de mies de las tierras a la era.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Modernamente transportar el grano cosechado de las tierras a la era o nave.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Por ext., transportar de cualquier manera.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Dicho de daños o desgracias, ocasionar, producir, traer consigo.<br />
+				<strong>Achuchar:</strong> Voz onomatopéyica.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. <em>tr. Azuzar.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Aplastar, estrujar con la fuerza de algún golpe o peso.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fam. Empujar una persona a otra; agredirla violentamente, acorralándola.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. <em>Apremiar, atosigar, abrumar.</em><br />
+				<strong>Acocotar:</strong> De acogotar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Matar con herida o <em>golpe dado en el cogote.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam. Derribar o vencer a una persona sujetándola por el cogote.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. <em>Acoquinar, dominar, vencer.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. Sal. Herirse el buey en el cogote.<br />
+				<strong>Adobillado*:</strong> <em>Estar cansado, fatigado y dolorido por un esfuerzo realizado.</em><br />
+				<strong>Agállarón*:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Burg. Agállara, gállara, agalla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De a y el lat. Galla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Excrecencia redonda que se forma en el roble, alcornoque y otros árboles y arbustos por la picadura de ciertos insectos al depositar sus huevos.</em><br />
+				<strong>Agallarilla*:</strong> <em>Agállara incipiente, pequeña.</em><br />
+				<strong>Agostero:</strong> De agosto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Dícese del ganado que, levantadas las mieses, entra a pacer en los rastrojos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<em> m. Obrero que trabaja en las faenas de las eras durante la recolección de cereales.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Religioso destinado por las comunidades a recoger en agosto la limosna de trigo y otros granos.<br />
+				<strong>Aguachinar:</strong> De aguachar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Estropear un fruto u otro alimento por exceso de agua.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. enaguazar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Llenar de agua una cosa, aguarla.</em><br />
+				<strong>Aguaderas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Cetr. Cada una de las cuatro plumas anchas, una más corta que otra, que están después de los cuchillos o remeras del ala de las aves.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sal. Surco o zanja de desagüe en las tierras.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. pl. <em>Armazón de madera, esparto, mimbre u otra materia semejante, con divisiones, que se coloca sobre las caballerías para llevar en cántaros o barriles agua u otras cosas.</em><br />
+				<strong>Aguadilla*:</strong> Ahogadilla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Zambullida que se da a otro, en broma, manteniendo sumergida su cabeza durante unos instantes.</em><br />
+				<strong>Aguilón**:</strong> De águila.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. M. aum. de águila.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Brazo de una grúa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Caño cuadrado de barro.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Albañ. Teja o pizarra cortada oblicuamente para que ajuste sobre la lima tesa de un tejado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Arq. Madero que en las armaduras con faldón está puesto diagonalmente desde el ángulo del edificio hasta el cuadral.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Blas. Águila sin pico ni garras.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Buitre</em><br />
+				<strong>Ajuntar:</strong> Del lat. adiunctus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. pop. <em>Juntar.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. ant. Unirse en matrimonio.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. pop. Amancebarse.<br />
+				<strong>Albarda:</strong> Del ár. al-barda'a.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Pieza principal del aparejo de las caballerías de carga, que se compone de dos a manera de almohadas rellenas, generalmente de paja y unidas por la parte que cae sobre el lomo del animal.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. bestia, caballo de albarda.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Albardilla, lonja de tocino.<br />
+				<strong>Albarca:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. abarca.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De or. prerromano.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Calzado de cuero crudo que cubre solo la planta de los pies, con reborde en torno, y se asegura con cuerdas o correas sobre el empeine y el tobillo. Hoy se hacen también de caucho.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. En algunas regiones, zueco1, zapato de madera.<br />
+
+				<strong>Alda*:</strong> <em>Ramas principales del tronco de un árbol.</em><br />
+
+				<strong>Aldabón*:</strong> Aum. de aldaba.<br />
+				Del ár. ad-dabba, el picaporte, el cerrojo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Pieza de hierro o bronce que se pone a las puertas para llamar golpeando con ella.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Pieza ordinariamente de hierro y de varias hechuras, fija en la pared para atar de ella una caballería.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Barreta de metal o travesaño de madera con que se aseguran, después de cerrados, los postigos o puertas.</em><br />
+				<strong>Alcajado*:</strong> Horcajadas (a).<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De horcajo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. <em>Dícese de la postura del que se monta en una caballería o en una persona o cosa echando cada pierna por su lado.</em><br />
+
+				<strong>Alforjas:</strong> Del ár. al-jurya, la talega pendiente del arzón de la silla.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Especie de talega abierta por el centro y cerrada por sus extremos, los cuales forman dos bolsas grandes y ordinariamente cuadradas, donde, repartiendo el peso para mayor comodidad, se guardan algunas cosas que han de llevarse de una parte a otra. Ú. m. en pl.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. cazador de alforja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Provisión de los comestibles necesarios para el camino.<br />
+
+				<strong>Alicaído:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Caído de alas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Débil, falto de fuerzas por edad o indisposición.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Triste y desanimado.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. p. us. Dícese del que ha decaído de las riquezas, poder, altura y estado floreciente en que antes se hallaba.<br />
+
+				<strong>Alimoche:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Ave rapaz semejante al buitre, pero más pequeña, con la cabeza y cuello cubiertos de pluma, y el color blanquecino. Es muy tímida y perezosa, se alimenta de sustancias animales descompuestas, vive ordinariamente en el África septentrional y pasa en verano a Europa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Por ext., <em>cualquier otra ave de la familia de los buitres.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. adj. Dícese del hombre aturdido y torpe.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Dícese del toro que al empezar la lidia parece aturdido.<br />
+
+				<strong>Almendruco:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Fruto del almendro</em>, con el mesocarpio todavía verde; el endocarpio, blando, y la semilla a medio cuajarse.<br />
+
+				<strong>Alverjana**:</strong> Arvajana, arveja.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Del lat. ervilia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Algarroba, planta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Planta silvestre, que se cría en lindes de cultivos,  especie de algarroba silvestre.</em><br />
+
+				<strong>Alzar:</strong> Del lat. *altiare, de altus, alto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Levantar, mover hacia arriba.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Levantar, construir, edificar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. En el santo sacrificio de la misa, elevar la hostia y el cáliz después de la consagración. Ú. t. c. intr.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Agr. <em>Dar la primera reja o vuelta al rastrojo o haza de labor.</em><br />
+
+				<strong>Amodorrado:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Soñoliento, adormecido o <em>que tiene modorra.</em><br />
+
+				<strong>Amolar:</strong> De a y muela.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Sacar corte o punta a un arma o instrumento en la muela.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. V. piedra de amolar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Adelgazar, enflaquecer.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. <em>Fastidiar, molestar con pertinacia. Ú. t. c. prnl.</em><br />
+
+				<strong>Amorugado*:</strong> <em>Decaído, deprimido, enfadado.</em><br />
+
+				<strong>Almóndiga:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Albóndiga.<br />
+
+				<strong>Andosca:</strong> De or. inc., quizá del lat. *annoticus, por annotinus.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Aplícase a la res de ganado menor que tiene más de uno o dos años. Ú. t. c. s.</em><br />
+
+				<strong>Angarillas:</strong> Del lat. angaria, acarreo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. pl. <em>Armazón compuesta de dos varas con un tabladillo en medio, en que se llevan a mano materiales para edificios y otras cosas.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Armazón de cuatro palos clavados en cuadro, de los cuales penden unas como bolsas grandes de redes de esparto, cáñamo u otra materia flexible, que sirve para transportar en cabalgaduras cosas delicadas, como vidrios, loza, etc. Tómase alguna vez en singular por cada una de estas bolsas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Aguaderas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Vinagreras para el servicio de la mesa.<br />
+
+				<strong>Apabullar:</strong> De or. inc.; cf. magullar, infl. probablemente por apalear.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Confundir, intimidar a una persona, haciendo exhibición de fuerza o superioridad.</em><br />
+
+				<strong>Apañar:</strong> De a y paño.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Coger con la mano; coger en general.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Tomar alguna cosa o apoderarse de ella capciosa e ilícitamente.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Acicalar, asear, ataviar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <em>Remendar o componer lo que está roto.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. y fam. Poner solución o remedio a un asunto precariamente, con disimulo o por conveniencia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. prnl. fam. <em>Darse maña para hacer alguna cosa.</em><br />
+				<strong>Apañárselas:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fam. Arreglárselas, componérselas, desenvolverse bien.<br />
+
+				<strong>Aparejos:</strong> De aparejar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Preparación, disposición para alguna cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Prevención de lo necesario para conseguir un fin.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Arreo necesario para montar o cargar las caballerías.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Conjunto de objetos necesarios para hacer ciertas cosas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Sistema de poleas, compuesto de dos grupos, fijo el uno y móvil el otro. Una cuerda, afianzada por uno de sus extremos en la armazón de la primera polea fija, corre por las demás, y a su otro extremo actúa la potencia.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. Arq. Forma o modo en que quedan colocados los materiales en una construcción. APAREJO poligonal.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Mar. Conjunto de palos, vergas, jarcias y velas de un buque, y que se llama de cruz, de cuchillo, de abanico, etc., según la clase de la vela.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. Pint. Preparación de un lienzo o tabla por medio de la imprimación.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9. pl. Instrumentos y cosas necesarias para cualquier oficio o maniobra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10. Materiales que usan los doradores para aparejar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11. ant. Conjunto de cabos o adornos menos principales de un vestido.<br />
+
+				<strong>Aperos:</strong> Del lat. *apparium, útil, aparejo.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Conjunto de instrumentos y demás cosas necesarias para la labranza. Ú. m. en pl.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cualquier instrumento que se emplea en la labranza.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Conjunto de animales destinados en una hacienda a las faenas agrícolas. Ú. m. en pl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Por ext., conjunto de instrumentos y herramientas de otro cualquier oficio. <br />
+
+				<strong>Aporcar:</strong> De a y el lat. porca, caballón.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Cubrir con tierra ciertas plantas, como el apio, el cardo, la escarola y otras hortalizas, para que se pongan más tiernas y blancas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Remover la tierra para amontonarla en torno a los troncos o los tallos de cualquier planta.</em><br />
+
+				<strong>Arpar**:</strong> Del ant. fr. harper, agarrar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Arañar o rasgar con las uñas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Hacer tiras o pedazos alguna cosa.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rajarse un objeto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reventar  un rumiante (vaca u oveja) al fermentar el pasto por exceso de este y agua.<br />
+				<strong>Arramplar:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Arramblar, llevarse codiciosamente todo lo que hay en algún lugar. Ú. t. c. intr. y con la prep. con.</em><br />
+
+				<strong>Arrecido*:</strong> <em>Pasmado de frío.</em><br />
+
+				<strong>Arreos:</strong> De arrear.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Atavío, adorno.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. pl. <em>Guarniciones o jaeces de las caballerías de montar o de tiro.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Adherentes o cosas menudas que pertenecen a otra principal o se usan con ella.<br />
+
+				<strong>Ascua:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Pedazo de cualquier materia sólida y combustible que por la acción del fuego se pone incandescente y sin llama.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estar en, o sobre, ascuas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Estar inquieto, sobresaltado. Ú. t. con los verbos, tener, poner, y análogos.<br />
+
+				<strong>Asolanar:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Dañar el sol</em> o echar a perder el viento solano alguna cosa, como frutas, legumbres, mieses, vino, etc. Ú. m. c. prnl.<br />
+
+				<strong>Asurado:</strong> De asurar, del lat. arsura, de ardere, arder.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Requemar los guisados en la vasija donde se cuecen, por falta de jugo o de humedad. Ú. m. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Abrasar los sembrados el calor excesivo. Ú. m. c. prnl.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Quemar o abrasar la ropa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Inquietar mucho. Ú. m. c. prnl.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. prnl. Asarse.<br />
+
+				<strong>Atacar (Atacarse):</strong> De taco.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Apretar el taco en un arma de fuego, una mina o un barreno.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. p. us. Apretar, atestar, atiborrar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. p. us. <em>Atar, abrochar, ajustar al cuerpo cualquier pieza del vestido que lo requiere. Ú. t. c. prnl.</em><br />
+
+				<strong>Atiborrar:</strong> De atibar y borra.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Llenar alguna cosa de borra, apretándola de suerte que quede repleta.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Henchir con exceso alguna cosa, llenarla forzando su capacidad.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Atracar de comida. Ú. m. c. prnl.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Atestar de algo un lugar, especialmente de cosas inútiles.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. fig. <em>Llenar la cabeza de lecturas, ideas, etc. Ú. t. c. prnl.</em><br />
+
+				<strong>Atildar:</strong><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Poner tildes a las letras.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. <em>Componer, asear. Ú. t. c. prnl.</em><br />
+
+				<strong>Atillo*:</strong> De atar del lat. aptare, ajustar, adaptar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Unir, juntar o sujetar con ligaduras o nudos.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Cuerda hecha con cáñamo trenzado con una longitud suficiente para atar gavillas de mies y formar el haz.</em><br />
+
+				<strong>Atinar:</strong> De a y tino.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. intr. Encontrar lo que se busca a tiento, sin ver el objeto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Dar por sagacidad natural o por un feliz acaso con lo que se busca o necesita. Ú. t. c. tr.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Acertar a dar en el blanco.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Acertar una cosa por conjeturas.<br />
+
+				<strong>Atufado:</strong> <br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Enfadado, enojado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Envenenado por el tufo, emanación gaseosa.</em><br />
+
+				<strong>Aturrullar:</strong> De aturullar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. fam. <em>Confundir a alguien, turbarle de modo que no sepa qué decir o cómo hacer una cosa. Ú. t. c. prnl.</em><br />
+
+				<strong>Atusar:</strong> Del lat. attonsus, p. p. de attondere, pelar, trasquilar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Recortar e igualar el pelo con tijeras.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Igualar los jardineros con tijeras las murtas y otras plantas.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Alisar el pelo, especialmente pasando por él la mano o el peine mojados.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. prnl. fig. <em>Componerse o adornarse con demasiada afectación y prolijidad.</em><br />
+
+				<strong>Avenida:</strong> De avenir.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Creciente impetuosa de un río o arroyo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Camino que conduce a un pueblo o paraje determinado.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Vía ancha, a veces con árboles a los lados.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. Concurrencia de varias cosas.<br />
+
+				<strong>Aventar:</strong> De a y viento.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Hacer o echar aire a alguna cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Echar al viento alguna cosa. Ú. ordinariamente refiriéndose a los granos que se limpian en la era.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Impeler el viento alguna cosa.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam. Echar o expulsar. Ú. más comúnmente refiriéndose a personas.<br />
+
+				<strong>Avío:</strong> De aviar.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Prevención, apresto.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Entre pastores y gente de campo, provisión que llevan al hato para alimentarse durante el tiempo que tardan en volver al pueblo.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Conveniencia, interés o provecho personal. Ú. m. con posesivo antepuesto. Ir a su AVÍO, hacer su AVÍO.<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. pl. fam. Utensilios necesarios para alguna cosa. AVÍOS de escribir, de coser, de afeitar.<br />
+
+				<strong>Azupar*:</strong> Azuzar de a y ¡sus!<br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. <em>Incitar a los perros para que embistan.</em><br />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Irritar, estimular.<br />
+
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>

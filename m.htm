@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+	<META NAME="Description" CONTENT="Acercarte a Valdevarnes, un pequeño pueblo del noreste de Segovia">
+	<META NAME="Keywords" CONTENT="Valdevarnés, Valdevarnes,pueblo de Segovia,Campo de San Pedro,Fuentemizarra,Maderuelo,pantano de Linares">
+	<title>Valdevarnés: un pequeño gran pueblo de Segovia</title>
+	<link href="estilos/general.css" rel="stylesheet" type="text/css" />
+	<script LANGUAGE="JavaScript">
+		function mostrar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='block';
+			var lin=document.getElementById('link');
+			lin.style.display='none';
+		}
+		function ocultar(id){
+			var noticias=document.getElementById(id);
+			noticias.style.display='none';
+			var lin=document.getElementById('link');
+			lin.style.display='block';
+		}
+	</script>
+</head>
+
+
+<body >
+
+<div id="container">
+  <div id="cabecera">	<a href="http://www.valdevarnes.es"><img src="img/Valde2.jpg"  id="cab"  alt="Valdevarnes"></a> 
+	 </div>
+	 <div id="link" style="float:right;width:auto;margin-right:15px;">
+		<a style=" color : #FFCC33; font-family : arial, verdana; font-weight : bold; font-size : 10pt; text-decoration : blink;"href="#" onclick="javascript:mostrar('noticias')">ÚLTIMAS NOTICIAS</a>
+	</div>
+	<script language="JavaScript" type="text/javascript">
+    		var isIE= (window.navigator.appName.indexOf('Explorer')>0);
+    		if (isIE){
+        		if (navigator.appVersion.indexOf("MSIE 7.0")>0) {
+        			//document.write('<div style="margin-top:30px"></div>');
+        		}
+        	}            
+        </script>
+		<div id="menu" >
+		
+			<div id="lselect" >
+				<h3 class="select" style="background-color : #cde0f3;"><span >Conócelo</span></h3>
+				<ul>
+					<li><a href="comoLlegar.htm" title="Como llegar">Cómo llegar</a> </li>
+					<li><a href="historia.htm" title="Historia">Historia y arte</a></li>
+					<li><a href="ayto.htm" title="Datos ayuntamiento">Datos del ayuntamiento</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Fiestas</span></h3>
+				<ul>
+					<li><a href="fiestasPena.htm" title="Fiestas de la peña">Fiesta de la peña 'Los Comuneros'</a> </li>
+					<li><a href="fiestasPatronales.htm" title="Fiestas septiembre">Fiestas patronales</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Turismo</span></h3>
+				<ul>
+					<li><a href="queHacer.htm" title="que visitar">Qué visitar</a></li>
+					<li><a href="dondeDormir.htm" title="Donde dormir">Dónde dormir</a> </li>
+					<li><a href="dondeComer.htm" title="donde comer">Dónde comer</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Para estar al día</span></h3>
+				<ul>
+					<li><a href="noticias.htm" title="Noticias">Noticias<img src="img/new.jpg" align="absmiddle" border="0"></a> </li>
+					<li><a href="metereologia.htm" title="El tiempo">Meteorología</a></li>					
+					<li><a href="foro.htm" title="Foro">Foro de Valdevarnés</a></li>					
+					<li><a href="fotos.htm" title="Fotos">Fotos</a></li>	
+					<li><a href="videos.htm" title="Videos">Videos</a></li>														
+					<li><a href="http://webmail.1and1.es" title="Correo electronico" target="_blank">Correo web</a></li>
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Peña 'Los Comuneros'</span></h3>
+				<ul>
+					<li><a href="historiaPena.htm" title="Histoia de la peñe">Historia de la asociación</a> </li>
+					<li><a href="socios.htm" title="socios">Lista de socios</a></li>
+					<li><a href="reuniones.htm" title="Reuniones">Reuniones</a></li>
+					<li><a href="actividades.htm" title="Actividades">Actividades</a></li>					
+				</ul>
+				<h3 class="select" style="background-color : #cde0f3;"><span >Un poco de todo</span></h3>
+				<ul>
+					<li><a href="opinion.htm" title="Opinion">Da tu opinión</a></li>
+					<li><a href="diccionario.htm" title="Diccionario">Diccionario en Valdevarnés</a> </li>					
+					<li><a href="enlaces.htm" title="enlaces">Enlaces de interés</a></li>	
+					<li><a href="radares.htm" title="Radares">Radares en España</a></li>														
+				</ul>
+				
+		</div>
+	</div>
+		
+	<div id="supportingText" >
+		<div id="noticias" style="display:none;width:80%;margin-left:10%;border: 3px dotted #FFCC33;padding:5px">
+			<span style="float:left;margin-left:20px"><a href="noticias.htm" title="Noticias"><h2 class="titNaranja" style="text-decoration:underline;">Últimas noticias</h2></a></span>
+			<span style="float:right"><a title="Cerrar" href="#" onclick="javascript:ocultar('noticias')"><img src="img/cerrar_x.gif" alt="Cerrar" style="border:none"/></a></span>			
+			<div style="padding-bottom:7px;margin-top:1em;">
+			<iframe id="noticias_iframe"  src="ultimasNoticias.html" frameborder="0" width="100%" marginheight="0" marginwidth="0" scrolling="no" height="100" title="Últimas Noticias"> </iframe> 
+			</div>
+			<span style="clear:both;float:right"><a href="noticias.htm" title="Mas noticias" style="color:#FFCC33;font-weight:bold;background-color:#688fba;">[+]</a></span>			
+			<br style="clear:both"/>
+		</div>
+		<div id="explanation">
+			<h3><span>Diccionario de palabras típicas de Valdevarnés</span></h3>
+			<div id="indice">
+				<a href="a.htm" > A</a> |<a href="b.htm" > B</a> |<a href="c.htm" > C</a> |<a href="d.htm" > D</a> |
+				<a href="e.htm" > E</a> |<a href="f.htm" > F</a> |<a href="g.htm" > G</a> |<a href="h.htm" > H</a> |
+				<a href="i.htm" > I</a> |<a href="j.htm" > J</a> |<a href="k.htm" > K</a> |
+				<a href="l.htm" > L</a> |<a href="m.htm" > M</a> |<a href="n.htm" > N</a> |<a href="ñ.htm" > Ñ</a> |
+				<a href="o.htm" > O</a> |<a href="p.htm" > P</a> |<a href="q.htm" > Q</a> |<a href="r.htm" > R</a> |
+				<a href="s.htm" > S</a> |<a href="t.htm" > T</a> |<a href="u.htm" > U</a> |<a href="v.htm" > V</a> |
+				<a href="w.htm" > W</a> |<a href="x.htm" > X</a> |<a href="y.htm" > Y</a> |<a href="z.htm" > Z</a> 
+			</div>
+			<p class="p1">																	
+			<strong>Macho:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Hijo de caballo y burra o de asno y yegua; casi siempre estéril.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Persona fuerte y vigorosa.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Castellano.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. El que nace de garañón y yegua.<br />
+
+			<strong>Machón:</strong> Aum. de macho1.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pieza de madera</em> del marco de Soria, que tiene 18 pies de longitud.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Arq. Pilar de fábrica.<br />
+
+			<strong>Machorra:</strong> De machorro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Hembra estéril.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sal. Oveja que en festividades o bodas se mata en los pueblos para celebrar la fiesta.<br />
+
+			<strong>Machote:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. aum. de macho1.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fam.<em> Hombre vigoroso, bien plantado, valiente.</em><br />
+
+			<strong>Macuca**:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Planta perenne de la familia de las umbelíferas, de raíz globosa, tallo derecho y ramoso, hojas laciniadas y con pecíolos largos, flores blancas muy pequeñas y fruto parecido al del anís. Se cría en lugares montuosos y sombríos del mediodía de España.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Arbusto silvestre de la familia de las rosáceas, parecido al peral, aunque de hoja más menuda, cuya fruta es muy pequeña, colorada, insípida y de carne blanda y suave.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Fruto de este arbusto.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Menuda macuca me ha metido. Engaño.</em><br />
+
+			<strong>Mahonesa:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Natural de Mahón. Ú. t. c. s.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Perteneciente o relativo a esta ciudad de Baleares.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. f. <em>Salsa mayonesa.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Plato aderezado con salsa mahonesa.<br />
+
+			<strong>Majano:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Montón de cantos sueltos que se forma en las tierras de labor o en las encrucijadas y división de términos.</em><br />
+
+			<strong>Maladar*:</strong> <em>Estropear.</em><br />
+
+			<strong>Mameluco:</strong> Del ár. mamluk, esclavo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Soldado de una milicia privilegiada de los soldanes de Egipto.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Hombre necio y bobo.</em><br />
+
+			<strong>Mandanga:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Flema, indolencia, pachorra.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. pl. <em>Tonterías, cuentos, pejigueras.</em><br />
+
+			<strong>Mandilón**:</strong> aum. de mandil.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fig. y fam. Hombre de poco espíritu y cobarde.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Delantal.</em><br />
+
+			<strong>Maquila:</strong> Del ár. makila, medida de capacidad.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Porción de grano, harina o aceite que corresponde al molinero por la molienda.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Medida con que se maquila.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Medio celemín.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Hond. Medida de peso de cinco arrobas.<br />
+
+			<strong>Marranos**:</strong> Del fr. merrain.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Cada uno de los maderos que en las ruedas hidráulicas traban con el eje la pieza circular en que están colocados los álabes.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Cada uno de los maderos que forman la cadena del fondo de un pozo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. <em>Pieza fuerte de madera, colocada sobre el tablero de las prensas de torre de los molinos de aceite, que sirve para igualar la presión.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Par de soportes del cubete en la bodega, ya sean de toba o madera.</em><br />
+
+			<strong>Matanza:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Acción y efecto de matar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Mortandad de personas ejecutada en una batalla, asalto, etc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.<em> Faena de matar los cerdos, salar el tocino, aprovechar los lomos y los despojos, hacer las morcillas, chorizos, etc.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Época del año en que ordinariamente se matan los cerdos. Vendrá Antón para la MATANZA.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Porción de ganado de cerda que se va a matar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. <em>Conjunto de piezas que resultan de la matanza del cerdo y que se comen frescas, adobadas o en embutido.</em><br />
+
+			<strong>Maula:</strong> De maular.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Cosa inútil y despreciable.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. p. us. Pedazo de tela, piel o chapa que se vende como saldo o resto de mercancías.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Engaño o artificio encubierto.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. ant. Propina o agasajo que se daba a los criados ajenos.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. com. fig. y fam. Persona tramposa o mala pagadora.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. fig. y fam.<em> Persona perezosa y mala cumplidora de sus obligaciones.</em><br />
+
+			<strong>Mayonesa:</strong> Del fr. mayonnaise.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. </m>Salsa que se hace batiendo aceite crudo y yema de huevo.</em><br />
+
+			<strong>Media:</strong> Del adj. f. media.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Mitad de algunas cosas, especialmente de unidades de medida: MEDIA de trigo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Medida para áridos de capacidad de seis celemines.</em><br />
+
+			<strong>Medianería:</strong> De mediano y -ería1.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. ant. Medianía.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Pared común a dos casas u otras construcciones contiguas.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Cerca, vallado o seto vivo común a dos predios rústicos que deslinda.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por medianería.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. loc. adv. ant. Entre dos cosas.<br />
+
+			<strong>Melindroso, sa:</strong> <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj.<em> Que afecta melindres o demasiada delicadeza en acciones y palabras. </em>Ú. t. c. s.<br />
+
+			<strong>Mella:</strong> De mellar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f.<em> Rotura o hendidura en el filo de una arma o herramienta,</em> o en el borde o en cualquier ángulo saliente de otro objeto, por un golpe o por otra causa.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Vacío o hueco que queda en una cosa por faltar lo que lo ocupaba o henchía; como en la encía cuando <em>falta un diente.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. Menoscabo, merma, aun en cosa no material.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hacer mella.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. Causar efecto en uno la reprensión, el consejo o la súplica.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Ocasionar pérdida o menoscabo.<br />
+
+			<strong>Mellada:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. p. p. de mellar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. adj.<em> Falto de uno o más dientes.</em> Ú. t. c. s.<br />
+
+			<strong>Mendrugo:</strong> De or. inc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pedazo de pan duro o desechado,</em> y especialmente el sobrante que se suele dar a los mendigos.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Hombre rudo, tonto, zoquete.</em><br />
+
+			<strong>Micho, cha:</strong> De mizo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f. fam.<em> Gato, gata, animal.</em><br />
+
+			<strong>Minchar*:</strong> <em>Comer.</em><br />
+
+			<strong>Miajina*:</strong> <em>Parte muy pequeña de algo. Poca cosa.</em><br />
+
+			<strong>Mielga**:</strong> Del lat. vulg. *gemellicus, de gemellus, gemelo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. p. us. Mellizo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Alfalfa silvestre.</em><br />
+
+			<strong>Mocho:</strong> De or. inc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Dícese de todo aquello a lo que falta la punta o la debida terminación, como el animal cornudo que carece de astas, el árbol mondado de ramas y copa, la torre sin chapitel, etc.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Pelado o con el pelo cortado.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. V. trigo mocho.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sin cuernos.<br />
+
+			<strong>Mochuelo:</strong> De or. inc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Ave rapaz nocturna, de unos dos decímetros desde lo alto de la cabeza hasta la extremidad de la cola, y medio metro aproximadamente de envergadura, con plumaje muy suave, de color leonado, con pintas pardas en las partes superiores. Es común en España y se alimenta ordinariamente de roedores y reptiles.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Asunto o trabajo difícil o enojoso, de que nadie quiere encargarse.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ú. m. en las frases cargar con el mochuelo; caerle, echarle, sacudirle o tocarle, a uno el mochuelo.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cada mochuelo a su olivo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. con que se indica que ya es hora de recogerse.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fr. fig. con que se indica la acción de separarse varias personas que estaban reunidas, volviendo cada una a su casa o a su lugar de partida o procedencia.<br />
+
+			<strong>Modorra:</strong> De modorro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Somnolencia, sopor profundo.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Sueño muy pesado y, a veces, patológico.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Hora de la modorra.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Mil. Segundo de los cuartos en que para las centinelas se dividía la noche, comprendido entre el cuarto de prima y el de la modorrilla.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Veter. Aturdimiento patológico del ganado lanar, producido por los cisticercos de los cenuros que se alojan en el cerebro y que pueden alcanzar gran tamaño.<br />
+
+			<strong>Moje:</strong> De mojar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Salsa de cualquier guisado.<br />
+
+			<strong>Mojón:</strong> Del lat. hispánico *mutulo, -onis, de mutulus.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Señal permanente que se pone para fijar los linderos de heredades, términos y fronteras.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Por ext., señal que se coloca en despoblado para que sirva de guía.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Chito o tanguilla en que se pone el dinero, y al que se tira jugando.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. p. us. Montón.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Porción compacta de excremento humano que se expele de una vez.<br />
+
+			<strong>Mojonera:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Lugar o sitio donde se ponen mojones.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Serie de mojones1 que señalan la confrontación de dos términos o jurisdicciones.</em><br />
+
+			<strong>Mondar:</strong> Del lat. mundare.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. tr. Limpiar o purificar una cosa quitándole lo superfluo o extraño mezclado con ella.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. <em>Limpiar el cauce de un río, canal o acequia.PILÓN.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Podar, escamondar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. <em>Quitar la cáscara a las frutas, la corteza o piel a los tubérculos, o la vaina a las legumbres.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5. Cortar a uno el pelo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6. fig. y fam. Quitar a uno lo que tiene, especialmente el dinero.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7. Hablando del pecho o de la garganta, carraspear o toser repetidas veces para limpiarlos de mucosidad antes de hablar o cantar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8. fig. y fam. Azotar, apalear.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mondarse de risa.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. fig. y fam. Desternillarse de risa.<br />
+
+			<strong>Mondarajas:</strong> De mondar y -aja.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. pl. fam.<em> Mondaduras, hablando de patatas principalmente, o de naranjas, manzanas</em> o frutas análogas.<br />
+
+			<strong>Mondongo:</strong> De mondejo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Intestinos y panza de las reses, y especialmente los del cerdo.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hacer el mondongo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. fr. Emplearlo en hacer morcillas, chorizos, longanizas, etcétera.<br />
+
+			<strong>Mondonguero/a**:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. y f. Persona que vende mondongos.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Persona que tiene por oficio componerlos y guisarlos.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. f. vulg. P. Rico. Mujer muy gorda, de movimientos pesados.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Que se mete donde no le llaman o donde no sabe hacer algo.</em><br />
+
+			<strong>Moña:</strong> <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. ant. Enfado, desazón o tristeza.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. <em>Embriaguez, borrachera.</em><br />
+
+			<strong>Moñigo*:</strong> De boñigo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Cada una de las porciones o piezas del excremento del macho.</em><br />
+
+			<strong>Moquero:</strong><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Pañuelo para limpiarse los mocos.</em><br />
+
+			<strong>Moraga**:</strong> Del ár. múhraqa, cosa quemada, fuego, holocausto.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Manojo o maña que forman las espigadoras.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Haz de centeno con las espigas bien alineadas y juntas, preparadas para hacer los vencejos.</em><br />
+
+			<strong>Morcilla:</strong> Posiblemente, de la raíz de morcón.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. <em>Trozo de tripa de cerdo, carnero o vaca, o materia análoga, rellena de sangre cocida, que se condimenta con especias y, frecuentemente, cebolla, y a la que suelen añadírsele otros ingredientes como arroz,</em> piñones, miga de pan, etc.<br />
+
+			<strong>Morgas*:</strong> <em>Manchas de suciedad alrededor de la boca.</em><br />
+
+			<strong>Morgueras*:</strong> <em>Persona que tiene morgas.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Persona de escasa personalidad y carácter.</em><br />
+
+			<strong>Morillo:</strong> D. de moro, por las figuras con que suelen estar adornados.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Caballete de hierro que se pone en el hogar para sustentar la leña. Se usan dos generalmente.</em><br />
+
+			<strong>Morionda:</strong> De la raíz de morueco y -iondo.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. Dícese del ganado ovino, especialmente de<em> la oveja cuando está en celo.</em><br />
+
+			<strong>Morral:</strong> De morro.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Talego que contiene el pienso y se cuelga de la cabeza de las bestias, para que coman cuando no están en el pesebre.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Saco que usan los cazadores, soldados y viandantes, colgado por lo común a la espalda, para echar la caza, llevar provisiones o transportar alguna ropa.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. Hombre zote y grosero.<br />
+
+			<strong>Morrón:</strong> De morro y -ón.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. fam. <em>Golpe, porrazo.</em><br />
+
+			<strong>Morueco:</strong> Como marueco, voz prerromana.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m.<em> Carnero padre</em> o que ha servido para la propagación.<br />
+
+			<strong>Morugo:</strong> De or. inc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. <em>Dícese de la persona taciturna, huraña, esquiva. </em>Ú. t. c. s.<br />
+			<strong>Morrión*:</strong> <em>Pasador generalmente de hierro, que se pone en el eje para que no se salgan las ruedas.</em><br />
+
+			<strong>Mostrenco:</strong> Alteración de mestenco.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. adj. V. bienes mostrencos.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. y fam. Dícese del que no tiene casa ni hogar, ni señor o amo conocido. Ú. t. c. s.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. fig. y fam. <em>Ignorante o tardo en discurrir o aprender.</em> Ú. t. c. s.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. fig. y fam.<em> Dícese del sujeto muy gordo y pesado. </em>Ú. t. c. s.<br />
+
+			<strong>Moyuelo:</strong> De or. inc.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Salvado muy fino, el último que se separa al apurar la harina.</em><br />
+
+			<strong>Muesca:</strong> De moscar.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. f. Concavidad o hueco que hay o se hace en una cosa para encajar otra.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.<em> Corte que en forma semicircular se hace al ganado vacuno en la oreja para que sirva de señal.</em><br />
+
+			<strong>Muladar:</strong> De muradal.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. <em>Lugar o sitio donde se echa el estiércol o basura de las casas.</em><br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. fig. Lo que ensucia o inficiona material o moralmente.<br />
+
+			<strong>Murcio**:</strong><br />
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. m. Germ. Ladrón o ratero.<br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Persona  o animal apático.</em> <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Planta mustia.</em><br />
+
+			<strong>Mureco*:</strong> <em>Morueco.</em><br />
+
+
+			</p>
+		</div>		
+	</div>
+	<br  clear="left"/>
+	<div id="footer">
+             <a href="mailto:info@valdevarnes.es" style="margin-left:5%;margin-right:5%;">Danos tu opini&oacute;n</a> |
+            <img src="/tinc?key=DD2Pe9cx" style="margin-left:5%;margin-right:5%;" align="absmiddle"> |
+            <a href="http://webmail.1and1.es" title="Acceso correo electrónico" target="_blank" style="margin-left:5%;">Correo Web</a> 
+        </div>
+</div>
+
+</body>
+</html>
